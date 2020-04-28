@@ -21,7 +21,11 @@ function App() {
 
 
 {/* sideBar */}
-     <SideBar/>
+
+
+<SideBar/>
+
+    
   {/* end of sideBar */}
    
   {/* MainPanel */}

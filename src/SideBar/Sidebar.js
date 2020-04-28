@@ -1,7 +1,7 @@
 import React from 'react';
 import sidebar1 from '../assets/img/sidebar-1.jpg'
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
-import UserProfile from './UserProfile'
+// import UserProfile from './UserProfile'
 function SideBar() {
     return (
       <div className="SideBar">
@@ -13,33 +13,33 @@ function SideBar() {
         </a></div>
       <div className="sidebar-wrapper">
         <ul className="nav">
-          <li className="nav-item  ">
-            <a className="nav-link" href="./dashboard.html">
+          <li className="nav-item active ">
+          <Link className="nav-link" to="/">
               <i className="material-icons">dashboard</i>
               <p>Dashboard</p>
-            </a>
+          </Link>
           </li>
-          <li className="nav-item active ">
-          <Router>
+          <li className="nav-item  ">
+          {/* <Router>
            <Link className="nav-link" to="/userProfile" >
            <i className="material-icons">person</i>
               <p>User Profile</p>
            </Link>
            <Route path='/userProfile' exact><UserProfile/></Route>
-         </Router>
-            {/* <a className="nav-link" href="./user.html">
+         </Router> */}
+            <Link className="nav-link" to="/UserProfile">
               <i className="material-icons">person</i>
               <p>User Profile</p>
-            </a> */}
+              </Link>
           </li>
          
         
          
-          <li className="nav-item ">
-            <a className="nav-link" href="./map.html">
+          <li className="nav-item" >
+          <Link className="nav-link" to="/CompanyListing">
               <i className="material-icons">group</i>
               <p>Company Listing</p>
-            </a>
+            </Link>
           </li>
           <li className="nav-item ">
             <a className="nav-link" href="./map.html">

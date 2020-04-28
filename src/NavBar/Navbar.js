@@ -1,12 +1,12 @@
 import React from 'react';
 import avatar from '../assets/img/profile.png'
-function NavBar() {
+function Navbar() {
     return (
-      <div className="NavBar">
+      <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div className="container-fluid">
           <div className="navbar-wrapper">
-            <a className="navbar-brand" href="javascript:;">My Profile</a>
+            <a class="font-weight-bold" className="navbar-brand" href="javascript:;" style ={{color:"purple"}}>My Profile</a>
           </div>
           <button className="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span className="sr-only">Toggle navigation</span>
@@ -25,19 +25,11 @@ function NavBar() {
               </li> */}
               <li className="nav-item dropdown">
                 <a className="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i className="material-icons">notifications</i>
-                  <span className="notification">5</span>
-                  <p className="d-lg-none d-md-block">
-                    Some Actions
-                  </p>
+                 
+                  <span class="font-weight-bold" style ={{color:"purple"}}>FirstName</span>
+                  
                 </a>
-                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a className="dropdown-item" href="#">Mike John responded to your email</a>
-                  <a className="dropdown-item" href="#">You have 5 new tasks</a>
-                  <a className="dropdown-item" href="#">You're now friend with Andrew</a>
-                  <a className="dropdown-item" href="#">Another Notification</a>
-                  <a className="dropdown-item" href="#">Another One</a>
-                </div>
+                
               </li>
               <li class="nav-item avatar dropdown">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true"
@@ -58,5 +50,5 @@ function NavBar() {
     );
   }
   
-  export default NavBar;
+  export default Navbar;
   

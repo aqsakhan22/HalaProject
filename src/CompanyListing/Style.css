@@ -1,0 +1,80 @@
+.candidate-grid{
+    text-align: center;
+    border: 1px solid #ececec;
+    position: relative;
+    padding: 24px 0px;
+    overflow: hidden;
+  }
+  .candidate-grid img{
+    border-radius: 50%;
+    width:50%;
+    height:40%;
+    
+   
+    /* margin-top: 20px; */
+  }
+  .candidate-grid h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .candidate-grid h5{
+    font-size: 16px;
+    color: black;
+  }
+  .candidate-grid h6{
+    font-size: 13px;
+    color: black;
+  }
+  .careerfy-candidate-grid-status {
+    position: absolute;
+    left: 47px;
+    top: 34px;
+    width: 22px;
+    height: 22px;
+    background-color: #53b427;
+    border: 4px solid #fff;
+    border-radius: 100%;
+}
+ 
+
+  .urgntpkg-candv1, .urgntpkg-jobv1 {
+    position: absolute;
+    left: -21px;
+    top: 8px;
+    font-size: 13px !important;
+    background-color: #d72c2c;
+    color: #fff !important;
+    padding: 5px 26px;
+    line-height: 1;
+    z-index: 1;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+.promotepof-badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+.promotepof-badge:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top: 60px solid purple;
+    border-left: 60px solid transparent;
+    
+}
+.promotepof-badge i {
+    z-index: 5;
+    position: relative;
+    color: #fff;
+    float: left;
+    margin: 6px 6px 0 0;
+    font-size: 25px;
+    
+}

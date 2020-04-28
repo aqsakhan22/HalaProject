@@ -32,7 +32,7 @@ function UserProfile() {
           {/*end of MainPanel */}
       </div>
       {/* {end of wrapper} */}
-      <PopUp/>
+    
 
       </div>
     );

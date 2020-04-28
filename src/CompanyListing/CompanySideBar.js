@@ -1,10 +1,10 @@
 import React from 'react';
 import sidebar1 from '../assets/img/sidebar-1.jpg'
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
-import UserProfile from './UserProfile'
-function SideBar() {
+// import UserProfile from './UserProfile'
+function CompanySideBar() {
     return (
-      <div className="SideBar">
+      <div className="CompanySideBar">
       
       <div className="sidebar" data-color="purple" data-background-color="white" data-image={sidebar1}>
      
@@ -19,23 +19,23 @@ function SideBar() {
               <p>Dashboard</p>
             </a>
           </li>
-          <li className="nav-item active ">
-          <Router>
+          <li className="nav-item  ">
+          {/* <Router>
            <Link className="nav-link" to="/userProfile" >
            <i className="material-icons">person</i>
               <p>User Profile</p>
            </Link>
            <Route path='/userProfile' exact><UserProfile/></Route>
-         </Router>
-            {/* <a className="nav-link" href="./user.html">
+         </Router> */}
+            <a className="nav-link" href="./user.html">
               <i className="material-icons">person</i>
               <p>User Profile</p>
-            </a> */}
+            </a>
           </li>
          
         
          
-          <li className="nav-item ">
+          <li className="nav-item  active ">
             <a className="nav-link" href="./map.html">
               <i className="material-icons">group</i>
               <p>Company Listing</p>
@@ -62,5 +62,5 @@ function SideBar() {
     );
   }
   
-  export default SideBar;
+  export default CompanySideBar;
   

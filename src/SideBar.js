@@ -3,7 +3,7 @@ import React from 'react';
 import sidebar1 from './assets/img/sidebar-1.jpg'
 import UserProfile from './UserProfile/UserProfile'
 
-import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
+import {BrowserRouter as Router ,Route,Link} from 'react-router-dom'
 
 
 function SideBar() {
@@ -25,11 +25,11 @@ function SideBar() {
           <li className="nav-item ">
          {/* {User profile Link} */}
          <Router>
-           <Link className="nav-link" to="/userProfile" >
+           <Link className="nav-link" to="/userProfile" > 
            <i className="material-icons">person</i>
-              <p>User Profile</p>
+              <p>My Profile</p>
            </Link>
-           <Route path='/userProfile' exact><UserProfile/></Route>
+           <Route path='/userProfile' component={UserProfile}/>
          </Router>
             {/* <a className="nav-link" href='./user.html'>
               <i className="material-icons">person</i>

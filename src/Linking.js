@@ -10,7 +10,7 @@ function Linking() {
                     
                 <Link to="/about">about</Link>
                      <h1>hello home</h1>
-                     <Route path='/about' exact><App/></Route>
+                     <Route path='/about' exact component={App}/>
                      </Router>
                
             </li>

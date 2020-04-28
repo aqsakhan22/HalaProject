@@ -9,10 +9,36 @@ import Map from './Map/Map'
 import Notification from './Notification/Notification'
 import Linking from './Linking'
 import * as serviceWorker from './serviceWorker';
-
+import CompanyListing from './CompanyListing/CompanyListing'
+import CompanyProfile from './CompanyProfile/CompanyProfile'
+import Candidate from './Candidate/Candidate'
+import {BrowserRouter as Router,Route} from 'react-router-dom'
+import  CandidateProfile from './CandidateProfile/CompanyProfile'
+import CompanyContent from './CompanyListing/CompanyContent';
+import Sidebar from './SideBar/Sidebar'
+import Navbar from './NavBar/Navbar'
+import Footer from './Footer/Footer'
+import Content from './Content/CompanyListing'
+import Main from './Main/Main'
 ReactDOM.render(
+  // <Router><Candidate/></Router>
+//  <Router>
+//    <Route to="/Company" exact> <CompanyListing/>
+//  </Route>
+//  <Route to="/CompanyUser" exact> <CandidateProfile/>  
+//  </Route>
+//  </Router>
+    // <Navbar/>
+    // <Footer/>
+<Main/>
 
-    <Table/>
+
+  
+
+
+
+  
+   
   ,
   document.getElementById('root')
 );
