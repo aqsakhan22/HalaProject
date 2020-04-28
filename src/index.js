@@ -10,7 +10,7 @@ import Notification from './Notification/Notification'
 import Linking from './Linking'
 import * as serviceWorker from './serviceWorker';
 import CompanyListing from './CompanyListing/CompanyListing'
-import CompanyProfile from './CompanyProfile/CompanyProfile'
+// import CompanyProfile from './CompanyProfile/CompanyProfile'
 import Candidate from './Candidate/Candidate'
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 import  CandidateProfile from './CandidateProfile/CompanyProfile'
@@ -21,6 +21,9 @@ import Footer from './Footer/Footer'
 import Content from './Content/CompanyListing'
 import Main from './Main/Main'
 import CProfile from './Content/CProfile'
+import CompanyProfile from './Content/CompanyProfile'
+import Userprofile from './Content/UserProfile'
+
 ReactDOM.render(
   // <Router><Candidate/></Router>
 //  <Router>
@@ -32,6 +35,8 @@ ReactDOM.render(
     // <Navbar/>
     // <Footer/>
     <Main/>
+    
+    
 
 
 

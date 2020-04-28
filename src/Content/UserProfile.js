@@ -12,60 +12,46 @@ function UserProfile() {
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img style={{width:"50%"}}src={identiti} alt=""/> 
+                            <img style={{width:"50%"},{height:"50%"}}src={identiti} alt=""/> 
                            
                         </div>
                     </div>
-                    <div class="col-md-6">
-                    <div class="row">
-                                            <div  class="col-md-6">
+                    <div style={{border:"1px solid lightgray"}} class="col-md-6"> 
+                    <div class="row"> 
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Academic Level</label>
                                                 <p  style={{color:"blue"}}>Bachelors Degree</p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Talent's Name</label>
                                                 <p  style={{color:"blue"}}>Megan Dudding </p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Age</label>
                                                 <p  style={{color:"blue"}}>27</p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Salary</label>
                                                 <p  style={{color:"blue"}}>$5700</p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Gender</label>
                                                 <p  style={{color:"blue"}}>Female </p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Industry</label>
                                                 <p  style={{color:"blue"}}>Medical  </p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Location</label>
                                                 <p  style={{color:"blue"}}>Kuwait </p>
                                             </div>
-                                            <div  class="col-md-6">
+                                            <div  class="col-md-4">
                                                 <label class="font-weight-bold" style={{color:"purple"}}>Membership Length</label>
-                                                <p  style={{color:"blue"}}>: Member since 04/01/2020 </p>
+                                                <p  style={{color:"blue"}}>Member since 04/01/2020 </p>
                                             </div>
                                         </div>
-                        {/* <div class="profile-head" >
-                                    <h4 class="font-weight-bold" style={{color:"purple"},{fontSize:"30px"}}>
-                                   Identiti
-                                    </h4>
-                                    <h6 class="rating-num">
-                                    4.8
-                                    </h6> 
-									<span style={{color:"purple"}}className="material-icons">star</span>
-									<span style={{color:"purple"}} className="material-icons">star</span>
-									<span style={{color:"purple"}} className="material-icons">star</span>
-									<span style={{color:"purple"}} className="material-icons">star_half</span>
-									
-                                    <h3 class="proile-rating"> <a href="#"><span>Reviews</span></a></h3>
-                           
-                        </div> */}
+                       
                     </div>
                     <div class="col-md-2">
                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
@@ -73,24 +59,10 @@ function UserProfile() {
                 </div>
 
                 <br/>
-				{/* {Modal} */}
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  My Description
-</button>
-
-{/* <!-- Modal --> */}
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Description</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      
-      <p>
+{/* {Resume Start} */}
+                <h3 class="font-weight-bold" style={{color:"purple"}}>Description</h3>
+                <div>
+                <p>
       Greetings! I want to thank you for stopping by my profile! I am searching for a rewarding career with advancement opportunities. I have experience as a nurse and also as a clinical psychologist, and I want to utilize that for you! 
 
 I have been in the medical field since I graduated high school. While I went to college, I worked as a CNA at night. I worked long and hard to get where I am today. I hope to find an employer with ethics and core values that also align to mine. 
@@ -98,32 +70,17 @@ I have been in the medical field since I graduated high school. While I went to 
 If you have any questions or want to chat, please reach out to me. I would love to learn more about your company and its opportunities, thanks again!
 
       </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+                {/* {end of Description} */}
+
+
+{/* {start of resume} */}
+
+<div class="row">
+<div  class="col-md-4">
+<h3 class="font-weight-bold" style={{color:"purple"}}>Resume /Cv</h3>
         
-      </div>
-    </div>
-  </div>
-</div>
-                {/* {end of modal} */}
-
-                {/* {Documentation} */}
-
-	{/* {Modal} */}
-   
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Documentation</button>
-
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-        <br/>
-   <h3 class="font-weight-bold" style={{color:"purple"},{textAlign:"center"}}>Resume / Cv</h3>
-        <br/>
-    <div class="row">
-{/* {resume} */}
-        <div  class="col-md-4">
-        <form    class="md-form">
   <div  class="file-field">
     <div class="btn btn-primary btn-sm float-left">
       <span>Choose file</span>
@@ -131,82 +88,54 @@ If you have any questions or want to chat, please reach out to me. I would love 
     </div>
     
   </div>
-</form>
+
         </div>
-        {/* {end of resume} */}
+        {/* {end od col 1} */}
+    
+      
+</div>
+
+{/* {end of resume} */}
+<h3 class="font-weight-bold" style={{color:"purple"}}>Skills</h3>
+<div class="row">
+
+<div  class="col-md-4">
 
         
-    </div>
-    {/* {start of sikkls} */}
- 
-        
-
-<h3 style={{color:"purple"},{textAlign:"center"}} class="font-weight-bold" >Skills</h3>
-     {/* {1} */}
-    <div class="row" >
-{/* {resume} */}
-        <div class="col-md-4" style={{padding:"20px"}}>
-            <span>Employee Development</span>
+<span>Employee Development</span>
         <div class="progress">
   <div class="progress-bar" role="progressbar" style={{width: "25%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  
 </div>
-        </div>
-        <div class="col-md-4" style={{padding:"20px"}}>
-        <span>Customer Relations</span>
+<span>Customer Relations</span>
         <div class="progress">
   <div class="progress-bar" role="progressbar" style={{width: "50%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  
 </div>
-        </div>
-      
-        
-        <div class="col-md-4" style={{padding:"20px"}}>
-            <span>Problem Solving Ability </span>
+<span>Problem Solving Ability </span>
         <div class="progress">
   <div class="progress-bar" role="progressbar" style={{width: "60%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-        </div>
-        {/* {start of sikkls} */}
-    
-
-         
-    </div>
-    
-    {/* {2} */}
-    
-  
-     {/* {3} */}
-     <div class="row">
-{/* {resume} */}
-        <div class="col-md-4" style={{padding:"20px"}}>
-            <span>Administrative Capabilities  </span>
+<span>Administrative Capabilities  </span>
         <div class="progress">
   <div class="progress-bar" role="progressbar" style={{width: "70%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-        </div>
-        <div class="col-md-4" style={{padding:"20px"}}>
-        <span>Program development</span>
+<span>Program development</span>
         <div class="progress">
   <div class="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-        </div>
-      
-        
-
-      
-        <div class="col-md-4" style={{padding:"20px"}}>
-        <span>Psychological Evaluation </span>
+<span>Psychological Evaluation </span>
         <div class="progress">
   <div class="progress-bar" role="progressbar" style={{width: "70%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
         </div>
+       
+    
+       
       
-        
-
-         
-    </div>
-    <br/>
-    {/* {3 ka end} */}
-<h3 style={{color:"purple"},{textAlign:"center"}} class="font-weight-bold">Qualification</h3>
+</div>
+<h3 style={{color:"purple"} }class="font-weight-bold">Qualification</h3>
+				
 <div class="row">
 {/* {resume} */}
         <div class="col-md-6" style={{padding:"20px"}}>
@@ -238,9 +167,8 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
          
     </div>
-    
-{/* {start of qual} */}
-    <h3 style={{color:"purple"},{textAlign:"center"}} class="font-weight-bold">Experience</h3>
+
+    <h3 style={{color:"purple"}} class="font-weight-bold">Experience</h3>
     <div class="row">
 {/* {resume} */}
         <div class="col-md-6" style={{padding:"20px"}}>
@@ -276,10 +204,9 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
          
     </div>
-    
-    {/* {end of qual} */}
-    {/* {start of Honours} */}
-    <h3 style={{color:"purple"},{textAlign:"center"}} class="font-weight-bold">Honors & Awards</h3>
+
+
+    <h3 style={{color:"purple"}} class="font-weight-bold">Honors & Awards</h3>
     <div class="row">
 {/* {resume} */}
         <div class="col-md-6" style={{padding:"20px"}}>
@@ -312,48 +239,19 @@ If you have any questions or want to chat, please reach out to me. I would love 
          
     </div>
     <br/>
-    {/* {end of qual} */}
-    </div>
-  </div>
-</div>
 
 
 
-{/* {end of model} */}
 
-	{/* {Modal} */}
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3">
-Cover Video
-</button>
-
-{/* <!-- Modal --> */}
-<div class="modal fade" id="exampleModa3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Video</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
+    <h3 style={{color:"purple"}} class="font-weight-bold">Video</h3>
       
-      <div class="embed-responsive embed-responsive-16by9">
+    <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
 
-                {/* {end of modal} */}
-                <br/>
-                <br/>
 
+
+               <br/>
                 <div   class="row" >
 				
                     <div class="col-md-6">
@@ -361,29 +259,16 @@ Cover Video
                         <div  class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
-                                            <div class="col-md-6">
-                                            <button  type="button"  class="btn btn-primary">Schedule Interview</button>
+                                            <div class="col-md-4">
+                                            <button  type="button"  class="btn btn-primary">Download</button>
                                             </div>
-                                           
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                             <button  type="button"  class="btn btn-primary">Hire Me</button>
                                             </div>
-                                          
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                            <button  type="button"  class="btn btn-primary">Download CV</button>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                            <button  type="button"  class="btn btn-primary">Short List</button>
-                                            </div>
-                                            
-                                        </div>
+                                        
+                                        
+                                        
                                       
                             </div>
                             
