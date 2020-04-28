@@ -20,6 +20,7 @@ import Navbar from './NavBar/Navbar'
 import Footer from './Footer/Footer'
 import Content from './Content/CompanyListing'
 import Main from './Main/Main'
+import CProfile from './Content/CProfile'
 ReactDOM.render(
   // <Router><Candidate/></Router>
 //  <Router>
@@ -30,7 +31,8 @@ ReactDOM.render(
 //  </Router>
     // <Navbar/>
     // <Footer/>
-<Main/>
+    <Main/>
+
 
 
   

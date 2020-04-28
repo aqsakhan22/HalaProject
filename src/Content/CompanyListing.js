@@ -20,7 +20,7 @@ function CompanyListing() {
 
 	<div className="emp-date">
 	<h4 class="font-weight-bold">Job Type</h4>
-	<ul>
+	<ul style={{listStyle:"none"}}>
                         <li>
                           <input type="checkbox" />
                           <a href="#">Permanent</a>
@@ -49,7 +49,7 @@ function CompanyListing() {
 
 	<div className="emp-date">
 	<h4 class="font-weight-bold" >Sector</h4>
-	<ul>
+	<ul style={{listStyle:"none"}}>
                         <li>
                           <input type="checkbox" />
                           <a href="#">3d Designing</a>
@@ -81,7 +81,7 @@ function CompanyListing() {
 
 	<div className="emp-date">
 	<h4 class="font-weight-bold" >Academic Level</h4>
-	<ul>
+	<ul  style={{listStyle:"none"}}>
                         <li>
                           <input type="checkbox" />
                           <a href="#">Certificate</a>
@@ -113,7 +113,7 @@ function CompanyListing() {
 
 	<div className="emp-date">
 	<h4 class="font-weight-bold" >Gender</h4>
-	<ul>
+	<ul  style={{listStyle:"none"}}>
                         <li>
                           <input type="checkbox" />
                           <a href="#">Male</a>

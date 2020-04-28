@@ -1,6 +1,7 @@
 import React from 'react';
 import sidebar1 from '../assets/img/sidebar-1.jpg'
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
+import logo from '../assets/img/logo/halalogo.png'
 // import UserProfile from './UserProfile'
 function SideBar() {
     return (
@@ -8,9 +9,10 @@ function SideBar() {
       
       <div className="sidebar" data-color="purple" data-background-color="white" data-image={sidebar1}>
      
-      <div className="logo"><a href="http://www.creative-tim.com" className="simple-text logo-normal">
-          <span class="btn btn-primary">Hala</span> Talent
-        </a></div>
+      <div style={{backgroundColor:"purple"}} className="logo">
+          {/* <span class="btn btn-primary">Hala</span> Talent */}
+          <img style={{width:"70%"}}  src={logo}/>
+        </div>
       <div className="sidebar-wrapper">
         <ul className="nav">
           <li className="nav-item active ">
@@ -42,10 +44,12 @@ function SideBar() {
             </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="./map.html">
+          <Link className="nav-link" to="/CProfile">
               <i className="material-icons">favorite</i>
               <p>Comppany Wishlist</p>
-            </a>
+              </Link>
+              
+           
           </li>
           <li className="nav-item ">
             <a className="nav-link" href="./notifications.html">

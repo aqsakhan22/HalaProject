@@ -1,9 +1,5 @@
 import React from 'react';
-import SideBar from '../SideBar/Sidebar'
-import Navbar from '../NavBar/Navbar'
-import CompanyListing from '../Content/CompanyListing'
-import Footer from '../Footer/Footer'
-import UserProfile from '../Content/UserProfile'
+import logo from '../assets/img/logo/halalogo.png'
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 
 
@@ -20,9 +16,10 @@ function Main1() {
 
 <div class="main-panel">
 
-<div class="content">
+<div  style={{padding:"30px"}}  class="content">
 
-   
+<img style={{width:"700px"}} src={logo}/>
+
     
 
 </div>

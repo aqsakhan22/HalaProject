@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/profile.css'
-import identiti from '../assets/img/logo/identiti.png'
+import identiti from '../assets/img/logo/profile.png'
 
 function UserProfile() {
     return (
@@ -12,7 +12,7 @@ function UserProfile() {
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img style={{width:"40%"}}src={identiti} alt=""/> 
+                            <img style={{width:"50%"}}src={identiti} alt=""/> 
                            
                         </div>
                     </div>
