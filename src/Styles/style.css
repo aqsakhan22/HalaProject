@@ -137,6 +137,9 @@ span{
 #cards{
   border:1px solid purple;
 }
+#cardtext{
+  color:purple
+}
  /* .our-team-main
 {
 	width:100%;

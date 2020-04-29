@@ -5,14 +5,14 @@ import identiti from '../assets/img/logo/identiti.png'
 function CProfile() {
     return (
       <div className="CProfile">
-		  <h2 style={{color:"purple"}} class="text-center">Company Profile</h2>
+		  {/* <h2  class="font-weight-bold" style={{color:"purple"}} class="text-center">Company Profile</h2> */}
     <div class="container emp-profile">
 		
             <form method="post">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img style={{width:"50%"}}src={identiti} alt=""/>
+                            <img  style={{width:"50%"}}src={identiti} alt=""/>
                             {/* <div class="file btn btn-lg btn-primary">a
                                 Change Photo
                                 <input type="file" name="file"/>
@@ -21,9 +21,9 @@ function CProfile() {
                     </div>
                     <div class="col-md-6">
                         <div class="profile-head" >
-                                    <h4 class="font-weight-bold" style={{color:"purple"},{fontSize:"30px"}}>
+                                    <h3 id="compname"class="font-weight-bold" style={{color:"purple"}}>
                                    Identiti
-                                    </h4>
+                                    </h3>
                                     <h6 class="rating-num">
                                     4.8
                                     </h6> 
@@ -36,20 +36,20 @@ function CProfile() {
                            
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    {/* <div class="col-md-2">
                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
-                    </div>
+                    </div> */}
                 </div>
 				
                 <div   style={{border:"1px solid lightgray"} } class="row" >
 				
-                    <div class="col-md-6">
+                    <div style={{padding:"10px"}} class="col-md-6">
 					{/* <h2 class="font-weight-bold" style={{color:"purple"}}>Overview</h2> */}
                         <div  class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label style={{color:"purple"}}>Company website</label>
+                                                <h4 class="font-weight-bold" style={{color:"purple"}} >Company website</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>www.identiti.sa</p>
@@ -57,7 +57,8 @@ function CProfile() {
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label style={{color:"purple"}}>Industry </label>
+                                              
+                                                <h4 class="font-weight-bold" style={{color:"purple"}} >Industry</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>Computer Software</p>
@@ -65,7 +66,7 @@ function CProfile() {
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label style={{color:"purple"}}>Head Headquarters</label>
+                                            <h4 class="font-weight-bold" style={{color:"purple"}} >Head Headquarters</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>Riyadh, Saudi Arabia</p>
@@ -73,7 +74,7 @@ function CProfile() {
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label style={{color:"purple"}}>Founded Since</label>
+                                            <h4 class="font-weight-bold" style={{color:"purple"}} >Founded Since</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>207</p>
@@ -81,7 +82,7 @@ function CProfile() {
                                         </div>
                                         <div class="row">
                                         <div class="col-md-6">
-                                                <label style={{color:"purple"}}>Company size</label>
+                                        <h4 class="font-weight-bold" style={{color:"purple"}} >Company size</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>51-100</p>
@@ -96,7 +97,7 @@ function CProfile() {
                   {/* {recruit} */}
                                            <div class="row">
                                            <div class="col-md-6">
-                                                <label  class="font-weight-bold" style={{color:"purple"}}>Recruiter Name</label>
+                                           <h4 class="font-weight-bold" style={{color:"purple"}} >Recruiter Name</h4>
                                                 
                                             </div>
                                          
@@ -106,7 +107,7 @@ function CProfile() {
                                            </div>
                                            <div class="row">
                                            <div  class="col-md-6">
-                                                <label class="font-weight-bold" style={{color:"purple"}}>Designation</label>
+                                           <h4 class="font-weight-bold" style={{color:"purple"}} >Designation</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p class="font-weight-bold" style={{color:"blue"}}>Talents Acquisition Manager</p>

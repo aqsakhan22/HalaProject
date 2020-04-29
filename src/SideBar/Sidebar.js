@@ -2,6 +2,7 @@ import React from 'react';
 import sidebar1 from '../assets/img/sidebar-1.jpg'
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 import logo from '../assets/img/logo/halalogo.png'
+import '../Styles/StyleBar.css'
 // import UserProfile from './UserProfile'
 function SideBar() {
     return (
@@ -11,7 +12,7 @@ function SideBar() {
      
       <div style={{backgroundColor:"purple"}} className="logo">
           {/* <span class="btn btn-primary">Hala</span> Talent */}
-          <img style={{width:"70%"}}  src={logo}/>
+          <img id="logopad" style={{width:"70%"}}  src={logo}/>
         </div>
       <div className="sidebar-wrapper">
         <ul className="nav">
@@ -21,7 +22,7 @@ function SideBar() {
               <p>Dashboard</p>
           </Link>
           </li>
-          <li className="nav-item  ">
+          <li  className="nav-item  ">
           {/* <Router>
            <Link className="nav-link" to="/userProfile" >
            <i className="material-icons">person</i>
@@ -29,22 +30,22 @@ function SideBar() {
            </Link>
            <Route path='/userProfile' exact><UserProfile/></Route>
          </Router> */}
-            <Link className="nav-link" to="/UserProfile">
+            <Link id="btnhover" className="nav-link" to="/UserProfile">
               <i className="material-icons">person</i>
-              <p>My Profile</p>
+              <p >My Profile</p>
               </Link>
           </li>
          
         
          
           <li className="nav-item" >
-          <Link className="nav-link" to="/CompanyListing">
+          <Link id="btnhover" className="nav-link" to="/CompanyListing">
               <i className="material-icons">group</i>
               <p>Company Listing</p>
             </Link>
           </li>
           <li className="nav-item ">
-          <Link className="nav-link" to="/WishList">
+          <Link id="btnhover" className="nav-link" to="/WishList">
               <i className="material-icons">favorite</i>
               <p>Comppany Wishlist</p>
               </Link>
@@ -53,7 +54,14 @@ function SideBar() {
           </li>
          
          
-         
+          <li className="nav-item ">
+          <Link id="btnhover" className="nav-link" to="/Faqs">
+              <i className="material-icons">favorite</i>
+              <p>FAQs</p>
+              </Link>
+              
+           
+          </li>
         </ul>
       </div>
     </div>

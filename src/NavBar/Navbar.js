@@ -1,12 +1,13 @@
 import React from 'react';
 import avatar from '../assets/img/profile.png'
+import '../Styles/Navbar.css'
 function Navbar() {
     return (
       <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div className="container-fluid">
           <div className="navbar-wrapper">
-            <a class="font-weight-bold" className="navbar-brand" href="javascript:;" style ={{color:"purple"}}>My Profile</a>
+            <a  id="profilename"  class="navbar-brand"  href="javascript:;" >My Profile</a>
           </div>
           <button className="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span className="sr-only">Toggle navigation</span>
@@ -26,7 +27,7 @@ function Navbar() {
               <li className="nav-item dropdown">
                 <a className="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  
-                  <span class="font-weight-bold" style ={{color:"purple"}}>Megan Dudding</span>
+                  <span id="profilename" >Megan Dudding</span>
                   
                 </a>
                 

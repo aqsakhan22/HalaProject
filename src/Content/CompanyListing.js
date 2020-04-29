@@ -7,128 +7,15 @@ import koinz from '../assets/img/logo/koinz.PNG'
 import botify from '../assets/img/logo/botify.PNG'
 import {Link} from 'react-router-dom'
 
-
+import Checkbox from '@material-ui/core/Checkbox';
 function CompanyListing() {
     return (
       <div className="CompanyListing">
     
     <div class="container-fluid">
-     
-		
-	<div id="cards" class="row">
-	<div style={{border:"1px solid lightgray"}} className="col-lg-3">
-
-	<div className="emp-date">
-	<h4 id="intro4" class="font-weight-bold">Job Type</h4>
-	<ul style={{listStyle:"none"}}>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Permanent</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Contract</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Internship</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Remote</a>
-                        </li>
-                       
-                        <li>
-                          <input type="checkbox" checked="checked" />
-                          <a href="#" id="intro1">All</a>
-                        </li>
-                      </ul>
-	</div>
-	</div>
-	<div style={{border:"1px solid lightgray"}}  className="col-lg-3">
-
-	<div className="emp-date">
-	<h4 id="intro4"  class="font-weight-bold" >Sector</h4>
-	<ul style={{listStyle:"none"}}>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">3d Designing</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Acounting Finance</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Automotive</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Construction</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Education</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Health Care</a>
-                        </li>
-                      </ul>
-	</div>
-	</div>
-	<div style={{border:"1px solid lightgray"}}  className="col-lg-3">
-
-	<div className="emp-date">
-	<h4 id="intro4"  class="font-weight-bold" >Academic Level</h4>
-	<ul  style={{listStyle:"none"}}>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Certificate</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Diploma</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Associate</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Degree Bachelor</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Master Degree</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Associate</a>
-                        </li>
-                      </ul>
-	</div>
-	</div>
-	<div style={{border:"1px solid lightgray"}}  className="col-lg-3">
-
-	<div className="emp-date">
-	<h4 id="intro4"  class="font-weight-bold" >Gender</h4>
-	<ul  style={{listStyle:"none"}}>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Male</a>
-                        </li>
-                        <li>
-                          <input type="checkbox" />
-                          <a href="#" id="intro1">Female</a>
-                        </li>
-                      </ul>
-	</div>
-	</div>
-	</div>
-	
+   	
 	<div class="row">
-		 <div style={{padding:"20px"}}  class=" col-md-4 ">
+		 <div   style={{padding:"20px"}}  class=" col-md-3 ">
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -140,8 +27,8 @@ function CompanyListing() {
 			<Link to="/identiti" >	<img  style={{width:"40%"}} src={identiti} alt="" /></Link>	
 						<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Identiti</p>
-							<p style={{color:"black"}} class="font-weight-bold">Computer Software</p>
-							<p style={{color:"purple"}} class="font-weight-bold">Riyadh and Saudia Arabia</p>
+							<p   style={{fontSize:"15px"}} class="font-weight-bold">Computer Software</p>
+							<p id="cardtext" style={{fontSize:"15px"}} class="font-weight-bold">Riyadh and Saudia Arabia</p>
 						</div>
                     
       
@@ -152,7 +39,7 @@ function CompanyListing() {
                         
 					 </div>
 				</div>	 
-				<div style={{padding:"20px"}} class="col-sm-4 ">
+				<div style={{padding:"20px"}} class="col-md-3 ">
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -164,15 +51,15 @@ function CompanyListing() {
 						
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p>
-							<p style={{color:"black"}} class="font-weight-bold">Logistics & Supply Chain</p>
-							<p style={{color:"purple"}} class="font-weight-bold">Dubai, United Arab Emirates</p>
+							<p style={{fontSize:"15px"}}  class="font-weight-bold">Logistics & Supply Chain</p>
+							<p id="cardtext" style={{fontSize:"15px"}} class="font-weight-bold">Dubai,United Arab Emirate</p>
 						</div>
 					</div>
                       
                         
 				
 				</div>	 
-				<div style={{padding:"20px"}} class="col-sm-4">
+				<div style={{padding:"20px"}} class="col-md-3">
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -183,8 +70,8 @@ function CompanyListing() {
 					<img style={{width:"40%"}} src={identiti} alt="" />
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p>
-							<p style={{color:"black"}} class="font-weight-bold">Market Research</p>
-							<p style={{color:"purple"}} class="font-weight-bold">Amman,Jordan</p>
+							<p  style={{fontSize:"15px"}} class="font-weight-bold">Market Research</p>
+							<p id="cardtext" style={{fontSize:"15px"}} class="font-weight-bold">Amman,Jordan</p>
 						</div>
 					</div>
                       
@@ -195,7 +82,7 @@ function CompanyListing() {
 
 
 	<div class="row">
-		 <div style={{padding:"20px"}} class="col-sm-4">
+		 <div style={{padding:"20px"}} class="col-md-3">
 				
 					
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -206,15 +93,15 @@ function CompanyListing() {
 					<img src={koinz} alt="" />
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p>
-							<p style={{color:"black"}} class="font-weight-bold">Internet</p>
-							<p style={{color:"purple"}} class="font-weight-bold">Riyadh, Saudia Arabia</p>
+							<p   style={{fontSize:"15px"}} class="font-weight-bold">Internet</p>
+							<p id="cardtext" style={{fontSize:"15px"}} class="font-weight-bold">Riyadh, Saudia Arabia</p>
 						</div>
 					</div>
                       
                         
 					
 				</div>	 
-				<div style={{padding:"20px"}} class="col-sm-4">
+				<div style={{padding:"20px"}} class="col-md-3">
 				
 					
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -225,8 +112,8 @@ function CompanyListing() {
 					<img src={botify} alt="" />
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p>
-							<p style={{color:"black"}} class="font-weight-bold">Fashion & Design</p>
-							<p style={{color:"purple"}} class="font-weight-bold">Dubai,United Arab</p>
+							<p style={{fontSize:"15px"}}  class="font-weight-bold">Fashion & Design</p>
+							<p id="cardtext" style={{fontSize:"15px"}} class="font-weight-bold">Dubai,United Arab</p>
 						</div>
 					</div>
                       
