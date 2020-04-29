@@ -7,6 +7,7 @@ import UserProfile from '../Content/UserProfile'
 import Main1 from './Main1'
 import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 import CProfile from '../Content/CProfile'
+import Dashboard from '../Content/Dashboard'
 
 
 function Main() {
@@ -24,12 +25,13 @@ function Main() {
 <Navbar/>
 <div class="content">
 <Switch>
-<Route path="/" exact><Main1/></Route>
+<Route path="/" exact><Dashboard/></Route>
 
     <Route path="/CompanyListing" exact><CompanyListing/></Route>
-    <Route to="/UserProfile" exact><UserProfile/></Route>
-    {/* <Route to="/CProfile" exact><CProfile/></Route>
-    <Route to="/identiti" ><CProfile/></Route> */}
+    <Route path="/UserProfile" exact><UserProfile/></Route>
+    <Route path="/CProfile" exact><CProfile/></Route>
+    <Route path="/identiti" ><CProfile/></Route>
+    <Route path="/WishList"><CompanyListing/></Route>
 </Switch>
 
 </div>

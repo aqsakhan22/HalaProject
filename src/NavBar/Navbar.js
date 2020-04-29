@@ -26,7 +26,7 @@ function Navbar() {
               <li className="nav-item dropdown">
                 <a className="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  
-                  <span class="font-weight-bold" style ={{color:"purple"}}>FirstName</span>
+                  <span class="font-weight-bold" style ={{color:"purple"}}>Megan Dudding</span>
                   
                 </a>
                 

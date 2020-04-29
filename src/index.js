@@ -24,6 +24,7 @@ import CProfile from './Content/CProfile'
 import CompanyProfile from './Content/CompanyProfile'
 import Userprofile from './Content/UserProfile'
 
+
 ReactDOM.render(
   // <Router><Candidate/></Router>
 //  <Router>

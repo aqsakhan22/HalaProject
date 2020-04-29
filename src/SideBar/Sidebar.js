@@ -31,7 +31,7 @@ function SideBar() {
          </Router> */}
             <Link className="nav-link" to="/UserProfile">
               <i className="material-icons">person</i>
-              <p>User Profile</p>
+              <p>My Profile</p>
               </Link>
           </li>
          
@@ -44,19 +44,14 @@ function SideBar() {
             </Link>
           </li>
           <li className="nav-item ">
-          <Link className="nav-link" to="/CProfile">
+          <Link className="nav-link" to="/WishList">
               <i className="material-icons">favorite</i>
               <p>Comppany Wishlist</p>
               </Link>
               
            
           </li>
-          <li className="nav-item ">
-            <a className="nav-link" href="./notifications.html">
-              <i className="material-icons">notifications</i>
-              <p>Notifications</p>
-            </a>
-          </li>
+         
          
          
         </ul>

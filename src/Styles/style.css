@@ -119,7 +119,24 @@ span{
     font-size: 25px;
     
 }
+#intro4{
+  font-weight: bold;
+  
+  color:purple;
+  font-size: 23px;
+  text-align: center;
+}
 
+#intro1{
+  font-weight: bold;
+  
+  color:blue;
+  font-size: 15px;
+  
+}
+#cards{
+  border:1px solid purple;
+}
  /* .our-team-main
 {
 	width:100%;
