@@ -23,7 +23,8 @@ import Main from './Main/Main'
 import CProfile from './Content/CProfile'
 import CompanyProfile from './Content/CompanyProfile'
 import Userprofile from './Content/UserProfile'
-
+import Add from './AddQualification/Add'
+import Extra from './extra/Listing'
 
 ReactDOM.render(
   // <Router><Candidate/></Router>
@@ -35,7 +36,12 @@ ReactDOM.render(
 //  </Router>
     // <Navbar/>
     // <Footer/>
-    <Main/>
+   // <Router><Add/></Router>
+  //  <Router>
+  //    <Extra/>
+  //  </Router>
+   <Main/>
+    
     
     
 

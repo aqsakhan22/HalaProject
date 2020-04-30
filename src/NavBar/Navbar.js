@@ -6,9 +6,7 @@ function Navbar() {
       <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div className="container-fluid">
-          <div className="navbar-wrapper">
-            <a  id="profilename"  class="navbar-brand"  href="javascript:;" >My Profile</a>
-          </div>
+         
           <button className="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span className="sr-only">Toggle navigation</span>
             <span className="navbar-toggler-icon icon-bar"></span>

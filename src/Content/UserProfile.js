@@ -10,19 +10,25 @@ function UserProfile() {
 		
                 {/* <span id="name1"style={{color:"purple"}}>Email</span> */}
                 <div style={{borderBottom:"2px solid lightgray"}} class="row">
+                    
                
-                    <div class="col-md-4 " class="align-top">
+                    <div  class="col-md-4 " class="align-top">
                      
-                        <div  class="profile-img">      
-                       
-                          <img   style={{width:"50%"},{height:"50%"}}src={identiti} alt=""/> 
-                            
-                        </div>
-                        <span id="name"style={{color:"purple"}}>Megan Dudding</span>
+                    <div  class="profile-img" class="align-top">      
+                    <img   style={{width:"100%"},{height:"50%"}}src={identiti} alt=""/> 
+                     
+                         
+                     </div>
+                
+                    <div >
+                    <label id="name"style={{color:"purple"}}>Megan Dudding</label>
                         <br/>
-                        <span id="member">Member since 04/01/2020</span> 
+                        <label id="member">Member since 04/01/2020</label> 
                         <br/>
-                        <span id="name1"style={{color:"purple"}}>Email</span>
+                        <label id="name1"style={{color:"purple"}}>Email</label>
+                    </div>
+                   
+                        
                     </div>
                     <div  class="col-md-6"> 
                     <div class="row"> 
@@ -73,34 +79,36 @@ function UserProfile() {
               
                 <div style={{borderBottom:"2px solid lightgray"}}>
                 <p  class="text-left" id="para">
-      Greetings! I want to thank you for stopping by my profile! I am searching for a rewarding career with advancement opportunities. I have experience as a nurse and also as a clinical psychologist, and I want to utilize that for you! 
+          Greetings! I want to thank you for stopping by my profile! I am searching for a rewarding career with advancement opportunities. I have experience as a nurse and also as a clinical psychologist, and I want to utilize that for you! 
+              </p>
+              <p  class="text-left" id="para">
+              I have been in the medical field since I graduated high school. While I went to college, I worked as a CNA at night. I worked long and hard to get where I am today. I hope to find an employer with ethics and core values that also align to mine. 
+              </p>
+              <p  class="text-left" id="para">
+              If you have any questions or want to chat, please reach out to me. I would love to learn more about your company and its opportunities, thanks again!
 
-I have been in the medical field since I graduated high school. While I went to college, I worked as a CNA at night. I worked long and hard to get where I am today. I hope to find an employer with ethics and core values that also align to mine. 
 
-If you have any questions or want to chat, please reach out to me. I would love to learn more about your company and its opportunities, thanks again!
-
-      </p>
+              </p>
                 </div>
              
                
 
-                <h3 class="font-weight-bold" style={{color:"purple"}}>Personality Test</h3>
+                <h3 class="font-weight-bold" style={{color:"purple"}}>My Personality </h3>
               
               <div style={{borderBottom:"2px solid lightgray"}}>
-              <p class="text-left" id="para">
-    Greetings! I want to thank you for stopping by my profile! I am searching for a rewarding career with advancement opportunities. I have experience as a nurse and also as a clinical psychologist, and I want to utilize that for you! 
+              <p  class="text-left" id="para">
+              My Personality:
 
-I have been in the medical field since I graduated high school. While I went to college, I worked as a CNA at night. I worked long and hard to get where I am today. I hope to find an employer with ethics and core values that also align to mine. 
 
-If you have any questions or want to chat, please reach out to me. I would love to learn more about your company and its opportunities, thanks again!
-
-    </p>
+8% of men and 17% of women share this personality type with you. You get along with people very well, and you are the life of any party. You are attentive, caring, and always ready to help, even if you have to sacrifice your interests for others. Yet you’re very independent in your deals and, as a rule, you get everything without any side help. You only wait for emotional support from your close ones.
+              </p>
+              
               </div>
            
 
 {/* {end of resume} */}
-<div class="row">
-    <div class="col-md-6">
+<div style={{borderBottom:"2px solid lightgray"}}  class="row">
+    <div style={{borderRight:"2px solid lightgray"}} class="col-md-6">
 <h3 class="font-weight-bold" style={{color:"purple"}}>Skills</h3>
 <br/>
 <div style={{color:"blue"}} class="font-weight-bold" class="row">
@@ -166,7 +174,7 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
 </div>
 </div>
-<div class="col -md-6">
+<div class="col-md-6" >
 <h3 class="font-weight-bold" style={{color:"purple"}}>Video</h3>
 <br/>
 <div style={{color:"blue"}} class="font-weight-bold" class="row">
@@ -191,23 +199,26 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
 </div>
 </div>
-<hr/>
 
 
+<h3 style={{color:"purple"} }class="font-weight-bold">Qualification</h3>
 <div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
-<h3 style={{color:"purple"} }class="font-weight-bold">Qualification</h3>
+
 <ul style={{listStyle:"none"}}>
               <li  id="intro4" class="font-weight-bold" > <span className="material-icons">star</span> Faculty of Medicine, Kuwait University</li> 
 <li  id="intro1" >Bachelors Degree in Psychology </li>
 
 <li   id="intro1"  >Attended six years in total, earned multiple academic awards. </li>
             </ul>
-            <br/>
-            <br/>
-            <br/>
-            <ul style={{listStyle:"none"}}>
+          
+            
+            
+</div>
+<div class="col-md-6">
+
+<ul style={{listStyle:"none"}}>
             <li  id="intro4" > <span className="material-icons">star</span>The English Playgroup and Primary School</li> 
 <li  id="intro1" >Diploma </li>
 
@@ -215,10 +226,16 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
 </li>
             </ul>
-</div>
+></div>
+
+</div>     
+
+
+<h3 style={{color:"purple"} }class="font-weight-bold">Experience</h3>
+<div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
-<h3 style={{color:"purple"} }class="font-weight-bold">Experience</h3>
+
 <ul style={{listStyle:"none"}}>
             <li id="intro4" > <span className="material-icons">star</span>  Kuwait Counseling Center</li> 
 <li  id="intro1" > Head of Psychological Development</li>
@@ -227,8 +244,11 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
 </li>
             </ul>
-            <br/>
-            <ul style={{listStyle:"none"}}>
+            
+            
+</div>
+<div class="col-md-6">
+<ul style={{listStyle:"none"}}>
             <li id="intro4"  ><span style={{color:"purple"}}className="material-icons">star</span> Certified Nursing Assistant </li> 
 <li   id="intro1" >Responsible for patient care. Monitored and charted vitals, administered medications, and ensured patients were comfortable.  </li>
 
@@ -239,19 +259,24 @@ If you have any questions or want to chat, please reach out to me. I would love 
 </li>
             </ul>
 </div>
-</div>     
-   
 
-    <h3 style={{color:"purple"}} class="font-weight-bold">Honors & Awards</h3>
-    <div  class="row" >
-{/* {resume} */}
-        <div class="col-md-5" style={{padding:"20px"}}>
-            <ul style={{listStyle:"none"}}>
+</div>     
+<h3 style={{color:"purple"} }class="font-weight-bold">Honors & Awards</h3>
+<div style={{borderBottom:"2px solid lightgray"}} class="row"> 
+
+<div class="col-md-6">
+
+
+<ul style={{listStyle:"none"}}>
             <li id="intro4" class="font-weight-bold" ><span style={{color:"purple"}}className="material-icons">star</span> Graduated with honors (top of my class) </li> 
 <li id="intro1" style={{color:"blue"}}>Completed college with the highest possible grade-point average. </li>
 
             </ul>
-            <ul style={{listStyle:"none"}}>
+            
+            
+</div>
+<div class="col-md-6">
+ <ul style={{listStyle:"none"}}>
             <li id="intro4" class="font-weight-bold"><span style={{color:"purple"}}className="material-icons">star</span> Medical award of excellence  </li> 
 <li id="intro1" style={{color:"blue"}}>Honored by Farwaniya Hospital for my excellent patient care abilities. 
 
@@ -259,18 +284,11 @@ If you have any questions or want to chat, please reach out to me. I would love 
 
             </ul>
 
-        </div>
-        
-         
+</div>
 
+</div>
 
     
-        
-      
-        
-
-         
-    </div>
    
    
               

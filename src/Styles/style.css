@@ -124,7 +124,7 @@ span{
   
   color:purple;
   font-size: 23px;
-  text-align: center;
+ 
 }
 
 #intro1{
@@ -138,7 +138,18 @@ span{
   border:1px solid purple;
 }
 #cardtext{
-  color:purple
+  color:purple;
+  font-size: 12px;
+  font-weight: bold;
+}
+#cardtext1{
+  font-weight: bold;
+  font-size: 14px;
+}
+#sector{
+  font-weight: bold;
+  text-align: center;
+  color: purple;
 }
  /* .our-team-main
 {
