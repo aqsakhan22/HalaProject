@@ -17,56 +17,72 @@ function CompanyListing() {
 	<div id="cards" class="row">
 
 
-<div class="col-md-2">
+<div class="col-md-3">
 <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-    <a href="#" id="intro1">3d Designing</a>
+    <a href="#" id="intro1">Professional Services</a>
 </div>
-<div class="col-md-2">
+<div class="col-md-3">
 <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-    <a href="#" id="intro1">Acounting Finance</a>
+    <a href="#" id="intro1">Creative</a>
 </div>
-<div class="col-md-2">
+<div class="col-md-3">
 <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-    <a href="#" id="intro1">Automotive</a>
+    <a href="#" id="intro1">Financial Services</a>
 </div>
 
-<div class="col-md-2">
+<div class="col-md-3">
 <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a href="#" id="intro1">Construction</a>
+                          <a href="#" id="intro1">Transport & Logistics</a>
 </div>
-<div class="col-md-2">
+<div class="col-md-3">
 <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a href="#" id="intro1">Education</a>
+                          <a href="#" id="intro1">Consumer</a>
 </div>
 
 	
-	<div class="col-md-2">
+	<div class="col-md-3">
 	<Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a href="#" id="intro1">Health Care</a>
+                          <a href="#" id="intro1">Telecoms, Media & Tech</a>
+</div>
+<div class="col-md-3">
+	<Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a href="#" id="intro1">Government & Non-Profit</a>
+</div>
+<div class="col-md-3">
+	<Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a href="#" id="intro1">Manufacturing & Engineering</a>
 </div>
 
 	</div>

@@ -151,6 +151,10 @@ span{
   text-align: center;
   color: purple;
 }
+#headdata{
+  font-weight: bold;
+  font-size:23px;
+}
  /* .our-team-main
 {
 	width:100%;

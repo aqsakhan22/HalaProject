@@ -5,27 +5,31 @@ import {Link} from 'react-router-dom'
 function UserProfile() {
     return (
       <div className="UserProfile">
+         
 		  
     <div class="container emp-profile">
 		
+      
+        
                 {/* <span id="name1"style={{color:"purple"}}>Email</span> */}
                 <div style={{borderBottom:"2px solid lightgray"}} class="row">
                     
                
                     <div  class="col-md-4 " class="align-top">
                      
-                    <div  class="profile-img" class="align-top">      
-                    <img   style={{width:"100%"},{height:"50%"}}src={identiti} alt=""/> 
+                    <div   class="profile-img" class="align-top">      
+                    <img id="imagedata"  style={{width:"100%"},{height:"50%"}}src={identiti} alt=""/> 
                      
                          
                      </div>
-                
+                <br/>
                     <div >
+
                     <label id="name"style={{color:"purple"}}>Megan Dudding</label>
                         <br/>
                         <label id="member">Member since 04/01/2020</label> 
                         <br/>
-                        <label id="name1"style={{color:"purple"}}>Email</label>
+                        <label id="name1" >Huma_the_legend@4strokesonline.com</label>
                     </div>
                    
                         
@@ -111,9 +115,9 @@ function UserProfile() {
     <div style={{borderRight:"2px solid lightgray"}} class="col-md-6">
 <h3 class="font-weight-bold" style={{color:"purple"}}>Skills</h3>
 <br/>
-<div style={{color:"blue"}} class="font-weight-bold" class="row">
+<div  style={{color:"blue"}} class="font-weight-bold" class="row">
 
-<div  class="col-md-5">
+<div   class="col-md-5">
 
         
 <span  id="intro1" id="intro3">Employee Development</span>
@@ -199,14 +203,16 @@ function UserProfile() {
 
 </div>
 </div>
+<br/>
+
+<label id="headdata"  style={{color:"purple"} } >Qualification</label>
 
 
-<h3 style={{color:"purple"} }class="font-weight-bold">Qualification</h3>
-<div style={{borderBottom:"2px solid lightgray"}} class="row"> 
+<div   style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
-<div class="col-md-6">
+<div  class="col-md-6">
 
-<ul style={{listStyle:"none"}}>
+<ul  style={{listStyle:"none"}}>
               <li  id="intro4" class="font-weight-bold" > <span className="material-icons">star</span> Faculty of Medicine, Kuwait University</li> 
 <li  id="intro1" >Bachelors Degree in Psychology </li>
 
@@ -216,7 +222,7 @@ function UserProfile() {
             
             
 </div>
-<div class="col-md-6">
+<div   style={{borderLeft:"2px solid lightgray"}} class="col-md-6">
 
 <ul style={{listStyle:"none"}}>
             <li  id="intro4" > <span className="material-icons">star</span>The English Playgroup and Primary School</li> 
@@ -230,8 +236,8 @@ function UserProfile() {
 
 </div>     
 
-
-<h3 style={{color:"purple"} }class="font-weight-bold">Experience</h3>
+<br/>
+<label id="headdata"  style={{color:"purple"} } >Experience</label>
 <div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
@@ -247,7 +253,7 @@ function UserProfile() {
             
             
 </div>
-<div class="col-md-6">
+<div style={{borderLeft:"2px solid lightgray"}} class="col-md-6">
 <ul style={{listStyle:"none"}}>
             <li id="intro4"  ><span style={{color:"purple"}}className="material-icons">star</span> Certified Nursing Assistant </li> 
 <li   id="intro1" >Responsible for patient care. Monitored and charted vitals, administered medications, and ensured patients were comfortable.  </li>
@@ -261,7 +267,8 @@ function UserProfile() {
 </div>
 
 </div>     
-<h3 style={{color:"purple"} }class="font-weight-bold">Honors & Awards</h3>
+<br/>
+<label id="headdata"  style={{color:"purple"} } >Honors & Awards</label>
 <div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
@@ -275,7 +282,8 @@ function UserProfile() {
             
             
 </div>
-<div class="col-md-6">
+
+<div style={{borderLeft:"2px solid lightgray"}} class="col-md-6">
  <ul style={{listStyle:"none"}}>
             <li id="intro4" class="font-weight-bold"><span style={{color:"purple"}}className="material-icons">star</span> Medical award of excellence  </li> 
 <li id="intro1" style={{color:"blue"}}>Honored by Farwaniya Hospital for my excellent patient care abilities. 

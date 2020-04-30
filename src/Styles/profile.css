@@ -156,7 +156,10 @@ text-align: center;
 #name1{
     font-weight: bold;
     text-align: center;
-    margin-left: 80px;
+  color:purple
 }
-
+#imagedata{
+  border:2px solid black;
+  
+}
 
