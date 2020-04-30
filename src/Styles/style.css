@@ -106,7 +106,7 @@ span{
     position: absolute;
     right: 0;
     top: 0;
-    border-top: 60px solid purple;
+    border-top: 80px solid purple;
     border-left: 60px solid transparent;
     
 }
@@ -116,9 +116,10 @@ span{
     color: #fff;
     float: left;
     margin: 6px 6px 0 0;
-    font-size: 25px;
+    font-size: 28px;
     
 }
+
 #intro4{
   font-weight: bold;
   

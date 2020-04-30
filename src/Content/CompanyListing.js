@@ -7,11 +7,19 @@ import koinz from '../assets/img/logo/koinz.PNG'
 import botify from '../assets/img/logo/botify.PNG'
 import {Link} from 'react-router-dom'
 import Checkbox from '@material-ui/core/Checkbox';
+import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+import Favorite from '@material-ui/icons/Favorite';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 function CompanyListing() {
     return (
       <div className="CompanyListing">
-    
+      
+
+	  {/* <FormControlLabel
+        control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} name="checkedH" size="medium"  />}
+       
+      /> */}
     <div class="container-fluid">
 	<h2 id="sector" >Sector</h2>
 	<div id="cards" class="row">
@@ -108,8 +116,9 @@ function CompanyListing() {
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
+					
 					<span  className="promotepof-badge">
-                                <i  className="fa fa-star" title="Featured"></i>
+                     <i  className="fa fa-star" title="Featured"></i>
                               </span>
                              
                              
