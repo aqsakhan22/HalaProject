@@ -8,7 +8,7 @@ function Faqs() {
   <div className="container">
   
     <div className="faq-txt">
-      <h2 id="head">Frequently Asked Questions </h2>
+      <h2 id="head">Frequently Asked Questions  </h2>
     </div>
     <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div className="panel panel-default">

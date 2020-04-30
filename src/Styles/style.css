@@ -128,6 +128,14 @@ span{
  
 }
 
+
+#round{
+  background-color: purple;
+  border-radius: 200px;
+  padding: 10px;
+  color:white;
+  font-weight: bold;
+}
 #intro1{
   font-weight: bold;
   
@@ -149,7 +157,7 @@ span{
 }
 #sector{
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   color: purple;
 }
 #headdata{

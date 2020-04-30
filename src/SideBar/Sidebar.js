@@ -16,21 +16,21 @@ function SideBar() {
         </div>
       <div className="sidebar-wrapper">
         <ul className="nav">
+
           <li className="nav-item active ">
-          <Link className="nav-link" to="/">
+          <Link className="nav-link" to="/">  
               <i className="material-icons">dashboard</i>
               <p>Dashboard</p>
           </Link>
           </li>
-          <li  className="nav-item  ">
-          {/* <Router>
-           <Link className="nav-link" to="/userProfile" >
-           <i className="material-icons">person</i>
-              <p>User Profile</p>
-           </Link>
-           <Route path='/userProfile' exact><UserProfile/></Route>
-         </Router> */}
-            <Link id="btnhover" className="nav-link" to="/UserProfile">
+          
+          
+          
+          
+          <li   className="nav-item  ">
+    
+
+            <Link  id="btnhover" className="nav-link" to="/UserProfile" >
               <i className="material-icons">person</i>
               <p >My Profile</p>
               </Link>
@@ -44,6 +44,7 @@ function SideBar() {
               <p>Company Listing</p>
             </Link>
           </li>
+          
           <li className="nav-item ">
           <Link id="btnhover" className="nav-link" to="/WishList">
               <i className="material-icons">favorite</i>
@@ -56,7 +57,7 @@ function SideBar() {
          
           <li className="nav-item ">
           <Link id="btnhover" className="nav-link" to="/Faqs">
-              <i className="material-icons">favorite</i>
+              <i className="material-icons">live_help</i>
               <p>FAQs</p>
               </Link>
               

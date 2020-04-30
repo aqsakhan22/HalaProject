@@ -2,3 +2,8 @@
     font-weight: bold;
     color: purple;
 }
+#profilename:hover{
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+}

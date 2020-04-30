@@ -16,12 +16,7 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-end">
            
             <ul className="navbar-nav">
-              {/* <li className="nav-item">
-                <a className="nav-link" href="javascript:;">
-                 
-                  <button type="submit" className="btn btn-primary pull-left">SignUp</button>
-                </a>
-              </li> */}
+             
               <li className="nav-item dropdown">
                 <a className="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  

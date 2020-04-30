@@ -100,13 +100,13 @@ body{
 }
 #name{
     font-weight: bold;
-    text-align: center;
-    margin-left: 50px;
+    text-align: left;
+    margin-left: 40px;
     
 }
 #member{
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-left: 30px;
     color:blue;
     font-size: 12px;
@@ -156,10 +156,16 @@ text-align: center;
 #name1{
     font-weight: bold;
     text-align: center;
-  color:purple
+  color:purple;
+  margin-left: 15px;
 }
 #imagedata{
-  border:2px solid black;
+  margin:-20px;
   
+  
+}
+#videos{
+    margin-left: 30px;
+    margin-bottom: 35px;
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/profileform.css'
 import Checkbox from '@material-ui/core/Checkbox';
 
+
 function Dashboard() {
   
 
@@ -26,57 +27,123 @@ function Dashboard() {
                       <div class="col-md-5">
                         <div class="form-group">
                           <label class="bmd-label-floating">First Name (disabled)</label>
-                          <input type="text" class="form-control" disabled value="abc"/>
+                          <input type="text" class="form-control" disabled value="MEGAN"/>
                         </div>
                       </div>
                       <div class="col-md-3">
                         <div class="form-group">
                           <label class="bmd-label-floating">Last Name</label>
-                          <input type="text" class="form-control" disabled value="khan"/>
+                          <input type="text" class="form-control" disabled value="DUDDONG"/>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
                           <label class="bmd-label-floating">Email address</label>
-                          <input type="email" class="form-control" disabled value="abc@gmail.com"/>
+                          <input type="email" class="form-control" disabled value="4strokes@gmail.com"/>
                         </div>
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Location</label>
-                          <input  id="textdata" type="text" class="form-control"/>
+                          
+                          <input  id="textdata" type="text" class="form-control" placeholder="Location"/>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label class="bmd-label-floating">PhoneNo</label>
-                          <input id="textdata" type="text" class="form-control"/>
+                         
+                          <input id="textdata" type="text" class="form-control" placeholder="Phone No"/>
                         </div>
                       </div>
                     </div>
-                   <br/>
-                    <div class="row">
-                      <div class="col-md-4">
-                      <div class="dropdown">
-  <button type="button"  class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-    Select Category
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#" class="active">Select Category</a>
-    <a class="dropdown-item" href="#">Software & It Development</a>
-    <a class="dropdown-item" href="#">Agriculture</a>
-    <a class="dropdown-item" href="#">Accountant</a>
-  </div>
-  </div>
-
-                      </div>
-                     
-                     </div>
+                  
+                 
 <br/>
-<h3 class="font-weight-bold" style={{color:"purple"}}>Cover Letter</h3>
+                    
+
+                  
+              
+                    
+                  
+
                    
+        
+                    
+                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
+                   
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+            <div class="col-md-3">
+
+<div class="card card-profile">
+  {/* <div class="card-avatar">
+    <a href="javascript:;">
+      <img class="img" src="../assets/img/faces/marc.jpg" />
+    </a>
+  </div> */}
+  <div class="card-body">
+   
+  <form class="md-form">
+  <div  class="file-field">
+    <span id="head1" >Choose Image</span>
+    <div  class="btn btn-primary btn-sm float-left">
+      
+      <input  type="file"/>
+    </div>
+    
+  </div>
+</form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+          </div>
+         
+        
+        
+        {/* {Cover Letter} */}
+        
+        <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Cover Letter</h4>
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+                  
+                    
                     <div style={{border:"1px solid lightgray"}} class="row">
                       <div class="col-md-12">
                         <div class="form-group">
@@ -88,11 +155,57 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
-                    
-                    <br/>
-                    <h3 class="font-weight-bold" style={{color:"purple"}}>Qualification & Certification</h3>
-                   
-                    <div style={{border:"1px solid lightgray"}}  class="row">
+                                 
+<br/>
+</form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+            <div class="col-md-3">
+
+<div class="card card-profile">
+  
+  <div class="card-body">
+   
+  <form class="md-form">
+  <div  class="file-field">
+    <span id="head1">Choose Video</span>
+    <div  class="btn btn-primary btn-sm float-left">
+      
+      <input  type="file"/>
+    </div>
+    
+  </div>
+</form>
+  </div>
+</div>
+
+</div>
+
+
+
+          </div>
+         
+        
+        {/* {Qualification & Certification} */}
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Qualification & Certification</h4>
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+                  <div style={{border:"1px solid lightgray"}}  class="row">
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">School</label>
@@ -138,26 +251,111 @@ function Dashboard() {
                          
                         
                         </div>
-                        <div id="fieldList"  >
                        
-                       </div>
                       </div>
                       
                       
                     </div>
-                    
+                    <div id="fieldList"  >
+                       
+                       </div>
                    
                     
                    <br/>
                    
                    
                    <br/>
-                   <div id="fieldList1" style={{border:"1px solid lightgray"}}  class="row">
+                   {/* <div id="fieldList1" style={{border:"1px solid lightgray"}}  class="row">
 
                      </div>
+                     */}
                     
-                   <h3 class="font-weight-bold" style={{color:"purple"}}>Experience</h3>
-                    <div style={{border:"1px solid lightgray"}}  class="row">
+                                 
+<br/>
+</form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+            <div class="col-md-3">
+
+<div class="card card-profile">
+  
+  <div class="card-body">
+   
+  <form class="md-form">
+  <span id="head1">Current Status</span>
+  <div  class="file-field">
+    
+    <div  class=" btn-sm float-left">
+      
+    <Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a id="head2" href="#" >Hire Me</a>
+                          
+    </div>
+    <div  class=" btn-sm float-left">
+      
+    <Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a id="head2" href="#" >Available</a>
+    </div>
+    
+  </div>
+</form>
+  </div>
+</div>
+
+</div>
+
+
+
+          </div>
+         
+        
+        
+        
+        
+         
+                    
+                    
+        
+        
+        
+        
+        
+         
+                    
+                    
+        
+        
+        
+        
+        
+        
+        {/* {Experience} */}
+        <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Experience</h4>
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+                  <div style={{border:"1px solid lightgray"}}  class="row">
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Title</label>
@@ -204,7 +402,7 @@ function Dashboard() {
                     </div>
                    <br/>
                     
-                   <label>Salary</label>
+                   {/* <label>Salary</label>
                     <div style={{border:"1px solid lightgray"}}  class="row">
                       <div class="col-md-6">
                         <div class="form-group">
@@ -217,139 +415,229 @@ function Dashboard() {
                    
 
                     
-                    </div>
-                   <br/>
-                    
-                   <h3 class="font-weight-bold" style={{color:"purple"}}>Skills</h3>
-                    <div style={{border:"1px solid lightgray"}}  class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                         
-                          <input   type="text" class="form-control" />
-                        </div>
-                      </div>
-                      
-                
+                    </div> */}
                    
-
-                    
-                    </div>
-                   <br/>
-
-                   <h3 class="font-weight-bold" style={{color:"purple"}}>Subscription Info</h3>
-                    <div style={{border:"1px solid lightgray"}}  class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                         
-                          <input   type="text" class="form-control" />
-                        </div>
-                      </div>
-                      
-                
-                   
-
-                    
-                    </div>
-                   <br/>
-                    
-                    
-
-
-
-
-
-                    
-                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
-                    <div class="clearfix"></div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-profile">
-                
-                <div class="card-body">
-                  <h4 class="font-weight-bold" style={{color:"purple"}}>Upload Option</h4>
-                 
-                  <button type="file" class="btn btn-primary pull-left ">Upload Document</button>
-                  
-                  {/* {btn-round} */}
-                  
-                 
-                  
-               
-                 
-
-
-          <div class="row">
-         
-                
-                
-                <button type="file" class="btn btn-primary pull-left ">Upload Video</button>
-                </div>
-                
-          <br/>
-                <div class="row-2">
-                <h4 class="font-weight-bold" style={{color:"purple"}} >Job Type</h4>
-                </div>
-
-                  <div class="row">
-                 
-                  
-                  <ul style={{listStyle:"none"}}  >
-                  
-                 <li class="pull-left">
-                        <Checkbox
-       
-        inputProps={{ 'aria-label': 'secondary checkbox' }}
-        color="primary"
-      />
-                  <a href="#" >Permanent</a>
-                        </li>
-                        <li class="pull-left">
-                        <Checkbox
-       
-        inputProps={{ 'aria-label': 'secondary checkbox' }}
-        color="primary"
-      />
-                  <a href="#" >Contract</a>
-                        </li>
-                        
-                 </ul>
-                 
-                  </div>
-                 
-                  <div class="row">
-                  <ul style={{listStyle:"none"}}  >
-                
-                        <li class="pull-left">
-                        <Checkbox
-       
-        inputProps={{ 'aria-label': 'secondary checkbox' }}
-        color="primary"
-      />
-                  <a href="#" >Internship</a>
-                        </li>
-                        <li class="pull-left">
-                        <Checkbox
-       
-        inputProps={{ 'aria-label': 'secondary checkbox' }}
-        color="primary"
-      />
-                  <a href="#" >Remote</a>
-                        </li>
-                 </ul>
-                 
-                  </div>
-                 
-               
+                                 
+<br/>
+</form>
                 </div>
               </div>
             </div>
             
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+            <div class="col-md-3">
+
+<div class="card card-profile">
+  
+  <div class="card-body">
+   
+  <form class="md-form">
+  <div  class="file-field">
+    <span id="head1">Upload CV</span>
+    <div  class="btn btn-primary btn-sm float-left">
+      
+      <input  type="file"/>
+    </div>
+    
+  </div>
+</form>
+  </div>
+</div>
+
+</div>
+
+
+
           </div>
-          {/* <button id="addMore">add</button>
-          <div id="fieldList"></div> */}
+         
+        
+        
+        
+        
+         
+                    
+                    
+        
+        {/* {Salary} */}
+        
+
+        <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Salary</h4>
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+                  <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Salary</label>
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      
+                    </div>
+                
+                   
+
+                   
+                    
+                   {/* <label>Salary</label>
+                    <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      
+                
+                   
+
+                    
+                    </div> */}
+                   
+                                 
+<br/>
+</form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+            <div class="col-md-3">
+
+<div class="card card-profile">
+  
+  <div class="card-body">
+   
+  <form class="md-form">
+  <span id="head1">Job Type</span>
+  <div  class="file-field">
+    
+    <div  class=" btn-sm float-left">
+      
+    <Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a id="head2" href="#" >Permanant</a>
+
+             <Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a id="head2" href="#" >Contract</a>
+                          
+    </div>
+    <div  class=" btn-sm float-left">
+      
+    <Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a id="head2" href="#" >Internship</a>
+                          <Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a id="head2" href="#" >Remote</a>
+    </div>
+    
+    
+    
+  </div>
+</form>
+  </div>
+</div>
+
+</div>
+
+
+
+          </div>
+         
+        
+        
+        
+        
+        
+        
+        {/* {Skills} */}
+
+        <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Skills</h4>
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+                  <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Skills</label>
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      
+                    </div>
+                
+                   
+
+                   
+                    
+                   {/* <label>Salary</label>
+                    <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      
+                
+                   
+
+                    
+                    </div> */}
+                   
+                                 
+<br/>
+</form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+           
+
+          </div>
+         
+        
+        
+ 
         </div>
       </div>
     

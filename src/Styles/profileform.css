@@ -5,3 +5,12 @@
 #videobtn{
     color:purple
 }
+#head1{
+    font-weight: bold;
+    color: purple;
+}
+#head2{
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+}

@@ -22,6 +22,11 @@ function CompanyListing() {
       /> */}
     <div class="container-fluid">
 	<h2 id="sector" >Sector</h2>
+	
+	<div class="md-form mt-0">
+	<input class="form-control" type="text" placeholder="Search By Filters" aria-label="Search"/>
+</div>
+<br/>
 	<div id="cards" class="row">
 
 
