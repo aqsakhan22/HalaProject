@@ -136,7 +136,7 @@
 </div>  
        
                       
-                      
+         <hr/>             
                       
                       
                       `
@@ -145,6 +145,96 @@
   });
 });
   </script>
+
+
+<script>
+  $(function() {
+$("#addMore1").click(function(e) {
+  e.preventDefault();
+  
+  $("#fieldList1").append(
+
+    `
+  
+   
+    <form>
+                  <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Title</label>
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Employment Type</label>
+                          <input id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                    </div>
+                
+                   <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Company Name</label>
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Location</label>
+                          <input id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                        
+                          <input  type="date" class="form-control"/>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                        
+                        <input   type="date" class="form-control" />
+                          
+                        </div>
+                      </div>
+                    </div>
+                   
+                   
+                   
+                   
+                   <br/>
+                    
+                  
+                   
+                   
+                   
+                   
+                   
+                                 
+<hr/>
+</form>
+                
+                
+                
+   
+     
+
+     
+                    
+                    
+                    
+                    
+                    `
+  );
+  
+});
+});
+</script>
   <!-- <script>
     $(function() {
   $("#addMore").click(function(e) {

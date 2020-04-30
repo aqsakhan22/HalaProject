@@ -17,7 +17,7 @@ function Dashboard() {
             <div class="col-md-8">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Edit Profile</h4>
+                  
                   <p class="card-category">Complete your profile</p>
                 </div>
                 <br/>
@@ -69,8 +69,8 @@ function Dashboard() {
 
                    
         
-                    
-                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
+{/*                     
+                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button> */}
                    
                   </form>
                 </div>
@@ -94,7 +94,7 @@ function Dashboard() {
    
   <form class="md-form">
   <div  class="file-field">
-    <span id="head1" >Choose Image</span>
+    <span id="head1" >Profile Picture</span>
     <div  class="btn btn-primary btn-sm float-left">
       
       <input  type="file"/>
@@ -128,6 +128,92 @@ function Dashboard() {
 
           </div>
          
+
+
+         {/* {salary and sector} */}
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <h4 class="card-title">Salary & Sectors</h4>
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+                  <div style={{border:"1px solid lightgray"}}  class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Salary</label>
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Sector</label>
+                          <input  id="textdata" type="text" class="form-control" disabled value="Professional Services"/>
+                        </div>
+                      </div>
+                      <br/>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Sub Category</label>
+                          <input  id="textdata" type="text" class="form-control" disabled value="Consulting & Advisory"/>
+                        </div>
+                      </div>
+                      
+                    </div>
+                
+                   
+
+                   
+                    
+                  
+                   
+                                 
+<br/>
+</form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+            <div class="col-md-3">
+
+<div class="card card-profile">
+  
+  <div class="card-body">
+
+  <form class="md-form">
+  <div  class="file-field">
+    <span id="head1">Cover Video</span>
+    <div  class="btn btn-primary btn-sm float-left">
+      
+      <input  type="file"/>
+    </div>
+    
+  </div>
+</form>
+   
+ 
+  </div>
+</div>
+
+</div>
+
+
+
+          </div>
+         
+        
+        
+        
+        
+        
         
         
         {/* {Cover Letter} */}
@@ -175,7 +261,7 @@ function Dashboard() {
    
   <form class="md-form">
   <div  class="file-field">
-    <span id="head1">Choose Video</span>
+    <span id="head1">Upload Cv</span>
     <div  class="btn btn-primary btn-sm float-left">
       
       <input  type="file"/>
@@ -244,7 +330,16 @@ function Dashboard() {
                           <input  id="textdata" type="text" class="form-control"/>
                         </div>
                       </div>
-                      <div class="col-md-6">
+                     
+                      
+                      
+                    </div>
+
+                    <div id="fieldList"  >
+                       
+                       </div>
+                   
+                    <div class="row">
                         <div class="form-group">
                         
                           <button type="submit" id="addMore" class="btn btn-primary">Add another Qualification</button>
@@ -253,13 +348,7 @@ function Dashboard() {
                         </div>
                        
                       </div>
-                      
-                      
-                    </div>
-                    <div id="fieldList"  >
-                       
-                       </div>
-                   
+                  
                     
                    <br/>
                    
@@ -309,7 +398,7 @@ function Dashboard() {
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Available</a>
+                          <a id="head2" href="#" >Unavailable</a>
     </div>
     
   </div>
@@ -332,18 +421,7 @@ function Dashboard() {
                     
         
         
-        
-        
-        
-         
-                    
-                    
-        
-        
-        
-        
-        
-        
+  
         {/* {Experience} */}
         <div class="row">
             <div class="col-md-8">
@@ -400,113 +478,33 @@ function Dashboard() {
                         </div>
                       </div>
                     </div>
+                   
+                   
+                   
+                   
                    <br/>
                     
-                   {/* <label>Salary</label>
-                    <div style={{border:"1px solid lightgray"}}  class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          
-                          <input  id="textdata" type="text" class="form-control"/>
-                        </div>
-                      </div>
-                      
-                
                    
-
-                    
-                    </div> */}
-                   
-                                 
-<br/>
-</form>
-                </div>
-              </div>
-            </div>
-            
+                    <div id="fieldList1">
 
 
-            {/* {card yaha sy start hai} */}
-          
-
-            <div class="col-md-3">
-
-<div class="card card-profile">
-  
-  <div class="card-body">
-   
-  <form class="md-form">
-  <div  class="file-field">
-    <span id="head1">Upload CV</span>
-    <div  class="btn btn-primary btn-sm float-left">
-      
-      <input  type="file"/>
-    </div>
-    
-  </div>
-</form>
-  </div>
-</div>
-
-</div>
-
-
-
-          </div>
-         
-        
-        
-        
-        
-         
-                    
-                    
-        
-        {/* {Salary} */}
-        
-
-        <div class="row">
-            <div class="col-md-8">
-              <div class="card">
-                <div class="card-header card-header-primary">
-                  <h4 class="card-title">Salary</h4>
-                 
-                </div>
-                <br/>
-                <div class="card-body">
-                  <form>
-                  <div style={{border:"1px solid lightgray"}}  class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Salary</label>
-                          <input  id="textdata" type="text" class="form-control"/>
-                        </div>
-                      </div>
-                      
                     </div>
-                
                    
-
+                   <button type="submit" id="addMore1" class="btn btn-primary">Add another Experience</button>
                    
-                    
-                   {/* <label>Salary</label>
-                    <div style={{border:"1px solid lightgray"}}  class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          
-                          <input  id="textdata" type="text" class="form-control"/>
-                        </div>
-                      </div>
-                      
-                
                    
-
-                    
-                    </div> */}
+                   <br/>
+                   
+                   
+                   
+                   
                    
                                  
 <br/>
 </form>
+                
+                
+                
                 </div>
               </div>
             </div>
@@ -576,8 +574,14 @@ function Dashboard() {
         
         
         
+         
+                    
+                    
         
+       
         
+
+    
         {/* {Skills} */}
 
         <div class="row">
@@ -599,7 +603,8 @@ function Dashboard() {
                       </div>
                       
                     </div>
-                
+                    <br/>
+                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
                    
 
                    
@@ -637,7 +642,8 @@ function Dashboard() {
          
         
         
- 
+  
+         
         </div>
       </div>
     

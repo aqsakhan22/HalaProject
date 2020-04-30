@@ -35,8 +35,13 @@ function UserProfile() {
                    
                         
                     </div>
+                    
                     <div  class="col-md-6"> 
-                    <div class="row"> 
+                    <br/>
+                    
+                    
+                    <div  style={{marginLeft:"30px"}} class="row"> 
+                    
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Academic Level</label>
                                                 <p  id="intro1">Bachelors Degree</p>
@@ -62,18 +67,24 @@ function UserProfile() {
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Location</label>
                                                 <p  id="intro1">Kuwait </p>
                                             </div>
-                                           
+                                            <div  class="col-md-4">
+                                                <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Sector</label>
+                                                <p  id="intro1">Professional Services </p>
+                                            </div>
+                                            <div  class="col-md-4">
+                                                <label id="intro" class="font-weight-bold" style={{color:"purple"}}>SubCategory</label>
+                                                <p  id="intro1">Consulting & Advisory </p>
+                                            </div>
                                         </div>
                        
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                    <Link to="/editprofile"><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/></Link>     
                         <br/>
                         <br/>
-                        {/* <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/>
+                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/>
                         <br/>
-                        <br/>
-                        <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Hire Me"/> */}
+                        
                     </div>
                     
                 </div>
@@ -117,13 +128,15 @@ function UserProfile() {
 <br/>
 <div  style={{color:"blue"}} class="font-weight-bold" class="row">
 
-<div   class="col-md-5">
+<div   class="col-md-6">
 
         
 <span  id="intro1" id="intro3" id="round">Employee Development</span>
        
 </div>
-<div  class="col-md-5">     
+<br/>
+<br/>
+<div  class="col-md-6">     
 <span   id="intro1" id="intro3" id="round">Customer Relations</span>
      
 </div>
@@ -137,11 +150,13 @@ function UserProfile() {
 <br/>
 
 <div   style={{color:"blue"}}  class="row" >
-<div  class="col-md-5">
+<div  class="col-md-6">
        
        <span    id="intro1" id="intro3" id="round"> Problem Solving Ability </span>
                
        </div>
+       <br/>
+<br/>
 <div  class="col-md-6">
        
        <span  id="intro1" id="intro3" id="round">Administrative Capabilities  </span>
@@ -152,7 +167,7 @@ function UserProfile() {
        </div>
        <br/>
        <div   style={{color:"blue"}}  class="row" >
-<div  class="col-md-5">
+<div  class="col-md-6">
 
         
 <span    id="intro1" id="intro3" id="round">Program development</span>
@@ -160,7 +175,9 @@ function UserProfile() {
 
        
         </div>
-        <div  class="col-md-5">
+        <br/>
+<br/>
+        <div  class="col-md-6">
 
         
 
@@ -179,7 +196,7 @@ function UserProfile() {
 </div>
 </div>
 <div style={{borderLeft:"2px solid lightgray"}}  class="col-md-6" >
-<h3 class="font-weight-bold" style={{color:"purple"}}>Video</h3>
+<h3 class="font-weight-bold" style={{color:"purple"}}>Cover Video</h3>
 <br/>
 <div style={{color:"blue"}} class="font-weight-bold" class="row">
 <div class="col-md-8">
@@ -211,28 +228,30 @@ function UserProfile() {
 <div   style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div  class="col-md-6">
+<br/>
 
-<ul  style={{listStyle:"none"}}> 
-              <li  id="intro4" class="font-weight-bold" > <span className="material-icons">star</span> Faculty of Medicine, Kuwait University</li> 
+<ul > 
+<li  style={{listStyle:"none"}} id="intro4"  > <span className="material-icons">star</span> Faculty of Medicine, Kuwait University</li> 
+<br/>
 <li  id="intro1" >Bachelors Degree in Psychology </li>
-
+<br/>
 <li   id="intro1"  >Attended six years in total, earned multiple academic awards. </li>
-            </ul>
+</ul>
           
             
             
 </div>
 <div   class="col-md-6">
+<br/>
 
-<ul style={{listStyle:"none"}}>
-            <li  id="intro4" > <span className="material-icons">star</span>The English Playgroup and Primary School</li> 
+<ul >
+<li style={{listStyle:"none"}}  id="intro4" > <span className="material-icons">star</span>The English Playgroup and Primary School</li> 
+            <br/>
 <li  id="intro1" >Diploma </li>
-
-<li  id="intro1" >Perfect attendance record, graduated with academic honors. 
-
-</li>
+<br/>
+<li  id="intro1" >Perfect attendance record, graduated with academic honors. </li>
             </ul>
-></div>
+</div>
 
 </div>     
 
@@ -241,23 +260,28 @@ function UserProfile() {
 <div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
-
-<ul style={{listStyle:"none"}}>
-            <li id="intro4" > <span className="material-icons">star</span>  Kuwait Counseling Center</li> 
+<br/>
+<ul >
+<li style={{listStyle:"none"}} id="intro4" > <span className="material-icons">star</span>  Kuwait Counseling Center</li> 
+            <br/>
 <li  id="intro1" > Head of Psychological Development</li>
+<br/>
 
-<li  id="intro1" > Current employer. Design, develop, and integrate our counseling programs. Responsible for training and retention of new employees. 
+<li  id="intro1" > Current employer. Design, develop, and integrate our counseling programs. Responsible for training and retention of new employees. </li>
 
-</li>
             </ul>
             
             
 </div>
 <div class="col-md-6">
-<ul style={{listStyle:"none"}}>
-            <li id="intro4"  ><span style={{color:"purple"}}className="material-icons">star</span> Certified Nursing Assistant </li> 
+    <br/>
+<ul >
+<li style={{listStyle:"none"}} id="intro4"  ><span style={{color:"purple"}}className="material-icons">star</span> Farwaniya Hospital </li> 
+<br/>
+<li  id="intro1" > Certified Nursing Assistant </li> 
+<br/>
 <li   id="intro1" >Responsible for patient care. Monitored and charted vitals, administered medications, and ensured patients were comfortable.  </li>
-
+<br/>
 <li id="intro1" >Ensured patient’s safety and performed high-quality assistance in a 130-bed long-term care facility
 
 
@@ -272,20 +296,22 @@ function UserProfile() {
 <div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
+<br/>
 
-
-<ul style={{listStyle:"none"}}>
-            <li id="intro4" class="font-weight-bold" ><span style={{color:"purple"}}className="material-icons">star</span> Graduated with honors (top of my class) </li> 
+<ul >
+<li style={{listStyle:"none"}} id="intro4" class="font-weight-bold" ><span style={{color:"purple"}}className="material-icons">star</span> Graduated with honors (top of my class) </li> 
+<br/>
 <li id="intro1" style={{color:"blue"}}>Completed college with the highest possible grade-point average. </li>
-
-            </ul>
+</ul>
             
             
 </div>
 
 <div  class="col-md-6">
- <ul style={{listStyle:"none"}}>
-            <li id="intro4" class="font-weight-bold"><span style={{color:"purple"}}className="material-icons">star</span> Medical award of excellence  </li> 
+    <br/>
+ <ul >
+<li style={{listStyle:"none"}} id="intro4" class="font-weight-bold"><span style={{color:"purple"}}className="material-icons">star</span> Medical award of excellence  </li> 
+<br/>
 <li id="intro1" style={{color:"blue"}}>Honored by Farwaniya Hospital for my excellent patient care abilities. 
 
 </li>
@@ -300,13 +326,8 @@ function UserProfile() {
    
    
               
-        </div>
-
-
-
-
-	
-
+        
+</div>
 </div>
      
       

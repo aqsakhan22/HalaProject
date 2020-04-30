@@ -48,7 +48,7 @@ function SideBar() {
           <li className="nav-item ">
           <Link id="btnhover" className="nav-link" to="/WishList">
               <i className="material-icons">favorite</i>
-              <p>Comppany Wishlist</p>
+              <p>Company Wishlist</p>
               </Link>
               
            
