@@ -25,6 +25,7 @@ import CompanyProfile from './Content/CompanyProfile'
 import Userprofile from './Content/UserProfile'
 import Add from './AddQualification/Add'
 import Extra from './extra/Listing'
+import Employee from './EmployerDashboard/Employee'
 
 ReactDOM.render(
   // <Router><Candidate/></Router>
@@ -40,8 +41,9 @@ ReactDOM.render(
   //  <Router>
   //    <Extra/>
   //  </Router>
-   <Main/>
-    
+  //  <Main/>
+  
+    <Employee/>
     
     
 
