@@ -8,7 +8,7 @@ import Faqs from '../EmployeerContent/Faqs'
 import Footer from '../EmployeerContent/Footer'
 import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 
-
+import TalentProfile from '../EmployeerContent/TalentProfile'
 
 function Employee() {
     return (
@@ -31,6 +31,7 @@ function Employee() {
     <Route path="/TalentListing" exact><TalentListing/></Route>
     <Route path="/BestWishList"><BestMatch/></Route>
     <Route path="/Faqs" exact><Faqs/></Route>
+    <Route path="/firsttalent" exact><TalentProfile/></Route>
    
 </Switch>
 

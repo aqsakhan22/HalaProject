@@ -1,10 +1,10 @@
 import React from 'react';
 import  '../Styles/style.css'
-import identiti from '../assets/img/logo/identiti.png'
+import identiti from '../assets/img/logo/profile.png'
 import feeback from '../assets/img/logo/feeback.PNG'
-import shorages from '../assets/img/logo/shorages.PNG'
-import koinz from '../assets/img/logo/koinz.PNG'
-import botify from '../assets/img/logo/botify.PNG'
+import shorages from '../assets/img/logo/profile.png'
+import koinz from '../assets/img/logo/profile.png'
+import botify from '../assets/img/logo/profile.png'
 import {Link} from 'react-router-dom'
 import Checkbox from '@material-ui/core/Checkbox';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
@@ -99,6 +99,16 @@ function TalentListing() {
 </div>
 
 	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<div id="cards" class="row">
 
 <div class="col-md-3"></div>
@@ -123,15 +133,16 @@ function TalentListing() {
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
 					
 					<span  className="promotepof-badge">
-                     <i  className="fa fa-star" title="Featured"></i>
+                     <i  className="fa fa-star" title="Featured"></i> 
                               </span>
                              
                              
-			<Link to="/identiti" >	<img  style={{width:"40%"}} src={identiti} alt="" /></Link>	
+			<Link to="/firsttalent" >	<img  style={{width:"40%"}} src={identiti} alt="" /></Link>	
 						<div class="text">
-							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Identiti</p>
-							<p   id="cardtext1" >Computer Software</p>
-							<p id="cardtext"  >Riyadh and Saudia Arabia</p>
+							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Identiti</p> */}
+							<p   id="cardtext1" >Megan Dudding </p>
+							<p id="cardtext"  >Professional Services</p>
+							<p id="cardtext"  >Kuwait </p>
 						</div>
                     
       
@@ -150,12 +161,13 @@ function TalentListing() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span>
                             
-					<img   src={botify} alt="" />
+					<img style={{width:"40%"}}   src={botify} alt="" />
 						
 					<div class="text">
-							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p>
-							<p id="cardtext1"   >Logistics & Supply Chain</p>
-							<p id="cardtext"  >Dubai,UnitedArab Emirate</p>
+							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p> */}
+							<p id="cardtext1"   >Marcus Sanders </p>
+							<p id="cardtext"  >Manufacturing & Engineering</p>
+							<p id="cardtext"  >Israel</p>
 						</div>
 					</div>
                       
@@ -172,9 +184,10 @@ function TalentListing() {
                             
 					<img style={{width:"40%"}} src={identiti} alt="" />
 					<div class="text">
-							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p>
-							<p  id="cardtext1"  >Market Research</p>
-							<p id="cardtext"  >Amman,Jordan</p>
+							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p> */}
+							<p  id="cardtext1"  >Raj Heronea</p>
+							<p id="cardtext"  >Professional Services</p>
+							<p id="cardtext"  >Egypt</p>
 						</div>
 					</div>
                       
@@ -189,11 +202,12 @@ function TalentListing() {
 							<i  className="fa fa-star" title="Featured"></i>
 						  </span>
 						
-				<img src={koinz} alt="" />
+				<img style={{width:"40%"}}  src={koinz} alt="" />
 				<div class="text">
-						<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p>
-						<p   id="cardtext1" >Internet</p>
-						<p id="cardtext"  >Riyadh, Saudia Arabia</p>
+						{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p> */}
+						<p   id="cardtext1" >Mike Lenning</p>
+						<p id="cardtext"  >Creative</p>
+						<p id="cardtext"  >Morroco </p>
 					</div>
 				</div>
 				  
@@ -213,11 +227,12 @@ function TalentListing() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span>
                              
-					<img src={botify} alt="" />
+					<img style={{width:"40%"}}  src={botify} alt="" />
 					<div class="text">
-							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p>
-							<p id="cardtext1" >Fashion & Design</p>
-							<p id="cardtext" >Dubai,United Arab</p>
+							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p> */}
+							<p id="cardtext1" >Janya Harper </p>
+							<p id="cardtext" >Financial Services</p>
+							<p id="cardtext" >Turkey</p>
 						</div>
 					</div>
                       
