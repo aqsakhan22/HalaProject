@@ -1,0 +1,34 @@
+#btnsection
+{
+    
+text-align: center;
+margin-top: 45px;
+margin-left: 260px;
+
+}
+#textset{
+    margin-top: 45px;
+    font-weight: bold;
+    color: purple;
+    font-size: 30px;
+}
+#intern{
+    background-color: yellow;
+    color: black;
+}
+#textset1{
+    font-weight: bold;
+    color:black
+}
+#textset2{
+    font-weight: bold;
+    color:blue
+}
+#Permanent{
+    background-color:darkblue;
+    color:white;
+}
+#view{
+    color:black;
+    font-weight: bold;
+}
