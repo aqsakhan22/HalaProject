@@ -3,9 +3,17 @@ import '../Styles/profileform.css'
 import Checkbox from '@material-ui/core/Checkbox';
 
 
-function Dashboard() {
-  
 
+
+
+function Dashboard() {
+ 
+
+  
+  
+  
+  
+  
 
 
     return (
@@ -142,27 +150,30 @@ function Dashboard() {
                 <div class="card-body">
                   <form>
                   <div style={{border:"1px solid lightgray"}}  class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Salary</label>
-                          <input  id="textdata" type="text" class="form-control"/>
-                        </div>
-                      </div>
+                     
+            
+
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Sector</label>
-                          <input  id="textdata" type="text" class="form-control" disabled value="Professional Services"/>
+                          <input   type="text" class="form-control" disabled value="Professional Services"/>
                         </div>
                       </div>
                       <br/>
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Sub Category</label>
-                          <input  id="textdata" type="text" class="form-control" disabled value="Consulting & Advisory"/>
+                          <input  type="text" class="form-control" disabled value="Consulting & Advisory"/>
                         </div>
                       </div>
                       
                     </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Salary</label>
+                          <input  id="textdata" type="text" class="form-control"/>
+                        </div>
+                      </div>
                 
                    
 
@@ -343,6 +354,7 @@ function Dashboard() {
                         <div class="form-group">
                         
                           <button type="submit" id="addMore" class="btn btn-primary">Add another Qualification</button>
+                          
                          
                         
                         </div>
@@ -607,8 +619,24 @@ function Dashboard() {
                     <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
                    
 
-                   
+
+                    {/* <ColorButton variant="contained" color="primary" className={classes.margin}  startIcon={<SaveIcon />}>
+        Update Profile
+      </ColorButton> */}
+                    {/* <Button
+        variant="contained"
+        backgroundColor='#9c27b0'
+        color="primary"
+        size="large"
+        
+        startIcon={<SaveIcon />}
+      >
+        Update Profile
+      </Button> */}
                     
+
+                    {/* <MyButton  startIcon={<SaveIcon />}>Update Profile</MyButton>;  */}
+                  
                    {/* <label>Salary</label>
                     <div style={{border:"1px solid lightgray"}}  class="row">
                       <div class="col-md-6">
