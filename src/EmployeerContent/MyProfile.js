@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/CompanyProfile.css'
 import identiti from '../assets/img/logo/identiti.png'
-
+import {Link} from 'react-router-dom'
 function MyProfile() {
     return (
       <div className="MyProfile">
@@ -40,7 +40,7 @@ function MyProfile() {
                     <br/>
                     <br/>
                     <div class="col-md-3">
-                        <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+               <Link to="/editprofile"> <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/></Link>         
                     </div>
                     <br/>
                 </div>
