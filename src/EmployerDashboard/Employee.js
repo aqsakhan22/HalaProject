@@ -11,6 +11,7 @@ import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 import TalentProfile from '../EmployeerContent/TalentProfile'
 import EditProfile from '../EmployeerContent/EditProfile'
 import MainDashboard from '../EmployeerContent/MainDashboard'
+import ShortList from '../EmployeerContent/ShortList'
 
 function Employee() {
     return (
@@ -36,6 +37,7 @@ function Employee() {
     <Route path="/firsttalent" exact><TalentProfile/></Route>
     <Route path="/editprofile" exact><EditProfile/></Route> 
     <Route path="/talent1profile" exact><TalentProfile/></Route>
+    <Route path="/shortlist" exact><ShortList/></Route>
    
 </Switch>
 

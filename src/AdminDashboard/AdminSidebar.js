@@ -4,14 +4,14 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 import logo from '../assets/img/logo/halalogo.png'
 import '../Styles/StyleBar.css'
 // import UserProfile from './UserProfile'
-function SideBar() {
+function AdminSidebar() {
     return (
-      <div className="SideBar">
+      <div className="AdminSidebar">
       
       <div className="sidebar" data-color="purple" data-background-color="white" data-image={sidebar1}>
      
       <div style={{backgroundColor:"purple"}} className="logo">
-          {/* <span class="btn btn-primary">Hala</span> Talent */}
+         
           <img id="logopad" style={{width:"70%"}}  src={logo}/>
         </div>
       <div className="sidebar-wrapper">
@@ -30,19 +30,28 @@ function SideBar() {
           <li   className="nav-item  ">
     
 
-            <Link  id="btnhover" className="nav-link" to="/MyProfile" >
+            <Link  id="btnhover" className="nav-link" to="/Employeer" >
               <i className="material-icons">person</i>
-              <p >My Profile</p>
+              <p >Employeer</p>
               </Link>
           </li>
          
         
          
           <li className="nav-item" >
-          <Link id="btnhover" className="nav-link" to="/TalentListing">
+          <Link id="btnhover" className="nav-link" to="/Talent">
               <i className="material-icons">group</i>
-              <p>Talent Listing</p>
+              <p>Talent</p>
             </Link>
+          </li>
+         
+          <li className="nav-item ">
+          <Link id="btnhover" className="nav-link" to="/BestMatch">
+              <i className="material-icons">favorite</i>
+              <p>Best Match</p>
+              </Link>
+              
+           
           </li>
           <li className="nav-item ">
           <Link id="btnhover" className="nav-link" to="/shortlist">
@@ -52,15 +61,6 @@ function SideBar() {
               
            
           </li>
-          <li className="nav-item ">
-          <Link id="btnhover" className="nav-link" to="/BestWishList">
-              <i className="material-icons">favorite</i>
-              <p>Best Match</p>
-              </Link>
-              
-           
-          </li>
-         
          
           <li className="nav-item ">
           <Link id="btnhover" className="nav-link" to="/Faqs">
@@ -71,6 +71,7 @@ function SideBar() {
            
           </li>
           
+          
         </ul>
       </div>
     </div>
@@ -78,5 +79,5 @@ function SideBar() {
     );
   }
   
-  export default SideBar;
+  export default AdminSidebar;
   

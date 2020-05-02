@@ -11,94 +11,18 @@ import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import Favorite from '@material-ui/icons/Favorite';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 
-function TalentListing() {
+function ShortList() {
     return (
-      <div className="TalentListing">
+      <div className="ShortList">
       
 
-	  {/* <FormControlLabel
-        control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} name="checkedH" size="medium"  />}
-       
-      /> */}
+	 
     <div class="container-fluid">
-	{/* <h2 id="sector" >Sector</h2> */}
+	
 	<br/>
-	<div class="md-form mt-0">
-	<input class="form-control" type="text" placeholder="Search By Filters" aria-label="Search"/>
-</div>
-<br/>
-	<div id="cards" class="row">
-
-
-<div class="col-md-3">
-<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-    <a href="#" id="intro1">Professional Services</a>
-</div>
-<div class="col-md-3">
-<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-    <a href="#" id="intro1">Creative</a>
-</div>
-<div class="col-md-3">
-<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-    <a href="#" id="intro1">Financial Services</a>
-</div>
-
-<div class="col-md-3">
-<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-                          <a href="#" id="intro1">Transport & Logistics</a>
-</div>
-<div class="col-md-3">
-<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-                          <a href="#" id="intro1">Consumer</a>
-</div>
+	
 
 	
-	<div class="col-md-3">
-	<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-                          <a href="#" id="intro1">Telecoms, Media & Tech</a>
-</div>
-<div class="col-md-3">
-	<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-                          <a href="#" id="intro1">Government & Non-Profit</a>
-</div>
-<div class="col-md-3">
-	<Checkbox
-       
-       inputProps={{ 'aria-label': 'secondary checkbox' }}
-       color="primary"
-     />
-                          <a href="#" id="intro1">Manufacturing & Engineering</a>
-</div>
-
-	</div>
 	
 	
 	
@@ -255,5 +179,5 @@ function TalentListing() {
     );
   }
   
-  export default TalentListing;
+  export default  ShortList;
   

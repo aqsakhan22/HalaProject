@@ -81,8 +81,9 @@ span{
 
   .urgntpkg-candv1, .urgntpkg-jobv1 {
     position: absolute;
-    left: -21px;
-    top: 8px;
+    left: -22px;
+    
+    top: 11px;
     font-size: 16px !important;
     background-color: purple;
     color: #fff !important;
@@ -95,10 +96,10 @@ span{
     -o-transform: rotate(-40deg);
     transform: rotate(-40deg);
 }
-.urgntpkg-candv2, .urgntpkg-jobv2 {
+.urgntpkg-candv2 {
   position: absolute;
-  left: -21px;
-  top: 8px;
+  left: -25px;
+  top: 11px;
   font-size: 16px !important;
   background-color: purple;
   color: #fff !important;

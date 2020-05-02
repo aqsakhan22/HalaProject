@@ -1,7 +1,8 @@
 #profilename{
     font-weight: bold;
     color: purple;
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
 }
 #profilename:hover{
     font-weight: bold;
@@ -12,5 +13,5 @@
     font-weight: bold;
     color: purple;
    font-size: 20px;
-   margin-left: 5px;
+   margin-left: 20px;
 }

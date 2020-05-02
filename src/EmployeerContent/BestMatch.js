@@ -12,9 +12,9 @@ function BestMatch() {
       
      
       <div className="container">
-     <br/>
-     <div  style={{border:"2px solid lightgray"}} class="card">
-     <div   class="card-body">
+   
+     <div    style={{border:"2px solid lightgray"}} class="card">
+     <div style={{height:"80px"}}  class="card-body">
      <div class="row">
        
        <div class="col-md-8" >
@@ -69,36 +69,29 @@ function BestMatch() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+     <div class="row">
+
      <div  style={{border:"2px solid lightgray"}} class="card">
               {/* <div class="card-header card-header-primary">
                 
                 <p class="card-category">Complete your profile</p>
               </div> */}
               <br/>
-              <div   class="card-body">
+              <div  style={{height:"120px"}}  class="card-body">
                 
-                  <div  class="row" style={{marginTop:"-80px"}}>
+                  <div  class="row" style={{marginTop:"-40px"}}>
                    
                     <div class="col-md-3">
                       <div class="form-group">
-                       <img src={logo} style={{width:"200px"},{marginTop:"40px"}}  />
+                       <img src={logo} style={{width:"200px"},{marginTop:"30px"},{height:"130px"}}  />
                       </div>
                     </div>
                    
-                    <div class="col-md-3" style={{marginTop:"40px"}} >
+                    <div class="col-md-4" style={{marginTop:"5px"}} >
                       <div class="form-group">
                       <label id="textset" >Megan Dudding</label>
-                      <br/>
+                     
                       <label id="textset1">Professional Services(Consulting & Advisory)</label>
                       <br/>
                       <label  id="textset2">1st position</label>
@@ -106,7 +99,7 @@ function BestMatch() {
                       <br/>
                     </div>
                     <div    id="btnsection" class="col" >
-                      <div style={{marginTop:"40px"}} class="form-group">
+                      <div  class="form-group">
                      
                       <a id="view" href="#" >Internship</a>
                       <br/>
@@ -132,6 +125,7 @@ function BestMatch() {
                
                
               </div>
+              
             </div>
          
          
@@ -145,6 +139,7 @@ function BestMatch() {
           
           
           
+     </div>
           
           
           
@@ -152,34 +147,34 @@ function BestMatch() {
           
      <div class="row">
        
-       <div  style={{border:"2px solid lightgray"}} class="card">
+       <div   style={{border:"2px solid lightgray"},{height:"160px"}} class="card">
                 {/* <div class="card-header card-header-primary">
                   
                   <p class="card-category">Complete your profile</p>
                 </div> */}
                 <br/>
-                <div   class="card-body">
+                <div  style={{height:"120px"}} class="card-body">
                   
-                    <div style={{marginTop:"-80px"}}  class="row">
+                    <div style={{marginTop:"-40px"}}  class="row">
                      
                       <div class="col-md-3">
                         <div class="form-group">
-                         <img src={logo} style={{width:"200px"},{marginTop:"40px"}} />
+                         <img src={logo} style={{width:"200px"},{marginTop:"30px"},{height:"130px"}} />
                         </div>
                       </div>
                      
-                      <div class="col-md-3" >
+                      <div class="col-md-4" style={{marginTop:"5px"}}>
                         <div class="form-group">
-                        <label id="textset" >Identiti</label>
+                        <label id="textset" >Marcus Sanders</label>
                         <br/>
-                        <label id="textset1">Professional Services(Consulting & Advisory)</label>
+                        <label id="textset1">Manufacturing & Engineering</label>
                         <br/>
-                        <label  id="textset2">1st position</label>
+                        <label  id="textset2">2nd position</label>
                         </div>
                         <br/>
                       </div>
                       <div   id="btnsection" class="col" >
-                        <div style={{marginTop:"40px"}}  class="form-group">
+                        <div  class="form-group">
                        
                         <a  id="view" href="#"  >Permanent</a>
                         <br/>
@@ -231,28 +226,31 @@ function BestMatch() {
                   <p class="card-category">Complete your profile</p>
                 </div> */}
                 <br/>
-                <div   class="card-body">
+               
+                <div  style={{height:"120px"}} class="card-body">
                   
-                    <div style={{marginTop:"-80px"}}  class="row">
-                     
-                      <div class="col-md-3">
-                        <div class="form-group">
-                         <img src={logo} style={{width:"200px"},{marginTop:"40px"}}  />
-                        </div>
-                      </div>
+                    <div style={{marginTop:"-40px"}}  class="row">
                      
                       <div class="col-md-3" >
                         <div class="form-group">
-                        <label id="textset" >Identiti</label>
+                         <img src={logo} style={{width:"200px"},{marginTop:"30px"},{height:"130px"}}  />
+                       
+                        </div>
+                      
+                      </div>
+                     
+                      <div class="col-md-4" style={{marginTop:"5px"}}>
+                        <div class="form-group">
+                        <label id="textset" >Raj Heronea</label>
                         <br/>
-                        <label id="textset1">Professional Services(Consulting & Advisory)</label>
+                        <label id="textset1">Professional Services</label>
                         <br/>
-                        <label  id="textset2">1st position</label>
+                        <label  id="textset2">3rd position</label>
                         </div>
                         <br/>
                       </div>
                       <div   id="btnsection" class="col" >
-                        <div style={{marginTop:"40px"}} class="form-group">
+                        <div  class="form-group">
                        
                         <a id="view" href="#" >Contract</a>
                         <br/>

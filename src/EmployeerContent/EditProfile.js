@@ -9,13 +9,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 function EditProfile() {
  
 
-  
-  
-  
-  
-  
-
-
     return (
       <div className="EditProfile">
       
@@ -35,7 +28,7 @@ function EditProfile() {
                       <div class="col-md-5">
                         <div class="form-group">
                           <label class="bmd-label-floating">First Name (disabled)</label>
-                          <input type="text" class="form-control" disabled value="employeer first name"/>
+                          <input type="text" class="form-control" disabled value="Hind"/>
                         </div>
                       </div>
                       <div class="col-md-3">
@@ -179,7 +172,7 @@ function EditProfile() {
                     <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Founded Since</label>
-                          <input   type="text" class="form-control" value="207"/>
+                          <input   type="text" class="form-control" value="2007"/>
                         </div>
                       </div>
                 
@@ -202,7 +195,7 @@ function EditProfile() {
                    
                    
                    
-                   
+                   <br/>
                    
                    <div   class="row">
                      

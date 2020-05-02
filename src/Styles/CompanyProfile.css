@@ -101,3 +101,23 @@ body{
 /* #edit{
     margin-right: -90px;;
 } */
+
+#companyame{
+    color:purple;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#subdata{
+    font-weight: bold;
+    color: blue;
+}
+#description{
+    padding: 10px;
+    color:black
+}
+
+#description1{
+    padding: 10px;
+    
+}
