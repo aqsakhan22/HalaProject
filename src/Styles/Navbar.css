@@ -1,9 +1,16 @@
 #profilename{
     font-weight: bold;
     color: purple;
+    font-size: 20px;
 }
 #profilename:hover{
     font-weight: bold;
     color: white;
     background-color: purple;
+}
+#Companyname{
+    font-weight: bold;
+    color: purple;
+   font-size: 20px;
+   margin-left: 5px;
 }

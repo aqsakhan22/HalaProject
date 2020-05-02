@@ -78,10 +78,15 @@ function TalentProfile() {
                                         </div>
                        
                     </div>
+                    
                     <div class="col">
+                    <br/>
+                    <br/>
+                    <br/>
                    <Link><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/></Link>     
                         <br/>
                         <br/>
+                        
                          <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Hire Me"/>
                         <br/>
                         <br/>

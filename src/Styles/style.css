@@ -83,8 +83,8 @@ span{
     position: absolute;
     left: -21px;
     top: 8px;
-    font-size: 13px !important;
-    background-color: #d72c2c;
+    font-size: 16px !important;
+    background-color: purple;
     color: #fff !important;
     padding: 5px 26px;
     line-height: 1;
@@ -94,6 +94,22 @@ span{
     -ms-transform: rotate(-40deg);
     -o-transform: rotate(-40deg);
     transform: rotate(-40deg);
+}
+.urgntpkg-candv2, .urgntpkg-jobv2 {
+  position: absolute;
+  left: -21px;
+  top: 8px;
+  font-size: 16px !important;
+  background-color: purple;
+  color: #fff !important;
+  padding: 5px 26px;
+  line-height: 1;
+  z-index: 1;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 .promotepof-badge {
     position: absolute;
@@ -154,6 +170,18 @@ span{
 #cardtext1{
   font-weight: bold;
   font-size: 14px;
+  
+}
+#cardtext3{
+  font-weight: bold;
+  font-size: 20px;
+}
+#cardtext4{
+  
+    font-weight: bold;
+    font-size: 14px;
+    color: purple;
+  
 }
 #sector{
   font-weight: bold;

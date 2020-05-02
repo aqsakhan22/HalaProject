@@ -132,16 +132,18 @@ function TalentListing() {
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
 					
-					<span  className="promotepof-badge">
+					{/* <span  className="promotepof-badge">
                      <i  className="fa fa-star" title="Featured"></i> 
-                              </span>
+					
+                              </span> */}
+							  <span class="urgntpkg-candv1">HireMe</span> 
                              
                              
 			<Link to="/firsttalent" >	<img  style={{width:"40%"}} src={identiti} alt="" /></Link>	
 						<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Identiti</p> */}
-							<p   id="cardtext1" >Megan Dudding </p>
-							<p id="cardtext"  >Professional Services</p>
+							<p   id="cardtext3" >Megan Dudding </p>
+							<p id="cardtext4"  >Professional Services</p>
 							<p id="cardtext"  >Kuwait </p>
 						</div>
                     
@@ -157,17 +159,19 @@ function TalentListing() {
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
-					<span  className="promotepof-badge">
+					<span class="urgntpkg-candv2">Unavailable</span> 
+
+					{/* <span  className="promotepof-badge">
                                 <i  className="fa fa-star" title="Featured"></i>
-                              </span>
+                              </span> */}
                             
 					<img style={{width:"40%"}}   src={botify} alt="" />
 						
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p> */}
-							<p id="cardtext1"   >Marcus Sanders </p>
-							<p id="cardtext"  >Manufacturing & Engineering</p>
-							<p id="cardtext"  >Israel</p>
+							<p id="cardtext3"   >Marcus Sanders </p>
+							<p id="cardtext4"  >Manufacturing & Engineering</p>
+							<p id="cardtext"  >Dubai</p>
 						</div>
 					</div>
                       
@@ -178,15 +182,16 @@ function TalentListing() {
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
-					<span  className="promotepof-badge">
+					{/* <span  className="promotepof-badge">
                                 <i  className="fa fa-star" title="Featured"></i>
-                              </span>
+                              </span> */}
+							    <span class="urgntpkg-candv1">HireMe</span> 
                             
 					<img style={{width:"40%"}} src={identiti} alt="" />
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p> */}
-							<p  id="cardtext1"  >Raj Heronea</p>
-							<p id="cardtext"  >Professional Services</p>
+							<p  id="cardtext3"  >Raj Heronea</p>
+							<p id="cardtext4"  >Professional Services</p>
 							<p id="cardtext"  >Egypt</p>
 						</div>
 					</div>
@@ -198,15 +203,16 @@ function TalentListing() {
 				
 					
 				<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
-				<span  className="promotepof-badge">
+				{/* <span  className="promotepof-badge">
 							<i  className="fa fa-star" title="Featured"></i>
 						  </span>
-						
+						 */}
+						   <span class="urgntpkg-candv1">HireMe</span> 
 				<img style={{width:"40%"}}  src={koinz} alt="" />
 				<div class="text">
 						{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p> */}
-						<p   id="cardtext1" >Mike Lenning</p>
-						<p id="cardtext"  >Creative</p>
+						<p   id="cardtext3" >Mike Lenning</p>
+						<p id="cardtext4"  >Creative</p>
 						<p id="cardtext"  >Morroco </p>
 					</div>
 				</div>
@@ -223,15 +229,16 @@ function TalentListing() {
 				
 					
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
-					<span  className="promotepof-badge">
+					{/* <span  className="promotepof-badge">
                                 <i  className="fa fa-star" title="Featured"></i>
-                              </span>
+                              </span> */}
                              
+							 <span class="urgntpkg-candv1">HireMe</span> 
 					<img style={{width:"40%"}}  src={botify} alt="" />
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p> */}
-							<p id="cardtext1" >Janya Harper </p>
-							<p id="cardtext" >Financial Services</p>
+							<p id="cardtext3" >Janya Harper </p>
+							<p id="cardtext4" >Financial Services</p>
 							<p id="cardtext" >Turkey</p>
 						</div>
 					</div>

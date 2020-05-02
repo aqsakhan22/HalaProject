@@ -26,7 +26,7 @@ function EditProfile() {
               <div class="card">
                 <div class="card-header card-header-primary">
                   
-                  <p class="card-category">Company profile</p>
+                <h4 class="card-title">Company profile</h4>
                 </div>
                 <br/>
                 <div class="card-body">
@@ -35,36 +35,39 @@ function EditProfile() {
                       <div class="col-md-5">
                         <div class="form-group">
                           <label class="bmd-label-floating">First Name (disabled)</label>
-                          <input type="text" class="form-control" disabled value="employee first name"/>
+                          <input type="text" class="form-control" disabled value="employeer first name"/>
                         </div>
                       </div>
                       <div class="col-md-3">
                         <div class="form-group">
                           <label class="bmd-label-floating">Last Name</label>
-                          <input type="text" class="form-control" disabled value="company last name"/>
+                          <input type="text" class="form-control" disabled value="employeer last name"/>
                         </div>
                       </div>
                       <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Employeer Designation</label>
+                          <input type="email" class="form-control"  disabled value="Talents Acquisition Manager"/>
+                        </div>
+                      </div>
+                     
+                    </div>
+                    <br/>
+                    <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Company Name</label>
+                          <input type="email" class="form-control"  disabled value="Identiti"/>
+                        </div>
+                      </div>
+                    <div class="col-md-4">
                         <div class="form-group">
                           <label class="bmd-label-floating">Website address</label>
                           <input type="email" class="form-control"  disabled value="www.identiti.sa"/>
                         </div>
                       </div>
-                    </div>
-                    <br/>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group">
-                       
-                          <input style={{textAlign:"left"}} id="textdata" type="text" class="form-control" placeholder="Riyadh, Saudi Arabia"/>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                        <label class="bmd-label-floating">Company Name</label>
-                          <input  style={{textAlign:"left"}} id="textdata" type="text" class="form-control" disabled value="identiti"/>
-                        </div>
-                      </div>
+                     
+                     
                     </div>
                   
                  
@@ -140,8 +143,133 @@ function EditProfile() {
          
 
 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
          {/* {salary and sector} */}
          
+
+         <div class="row">
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  {/* <h4 class="card-title">Deatails</h4> */}
+                 
+                </div>
+                <br/>
+                <div class="card-body">
+                  <form>
+               
+                    
+                    <div   class="row">
+                     
+            
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Founded Since</label>
+                          <input   type="text" class="form-control" value="207"/>
+                        </div>
+                      </div>
+                
+                   
+                     <br/>
+                     <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Company Size </label>
+                          <input   type="text" class="form-control" value="51-100"/>
+                        </div>
+                      </div>
+                
+                     
+                   </div>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   <div   class="row">
+                     
+            
+
+                     <div class="col-md-6">
+                         <div class="form-group">
+                           <label class="bmd-label-floating">Head Headquarters</label>
+                           <input   type="text" class="form-control" value="Riyadh, Saudi Arabia"/>
+                         </div>
+                       </div>
+                 
+                    
+                      <br/>
+                      <div class="col-md-6">
+                         <div class="form-group">
+                           <label class="bmd-label-floating">Industry </label>
+                           <input   type="text" class="form-control" value="Computer Software"/>
+                         </div>
+                       </div>
+                 
+                      
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                     
+                    
+                    
+                    
+                    
+
+                   
+                    
+                  
+                   
+                                 
+<br/>
+</form>
+                </div>
+              </div>
+            </div>
+            
+
+
+            {/* {card yaha sy start hai} */}
+          
+
+         
+          </div>
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         {/* {Cover Letter} */}
         
@@ -149,7 +277,7 @@ function EditProfile() {
             <div class="col-md-8">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Cover Letter</h4>
+                  <h4 class="card-title">Description</h4>
                  
                 </div>
                 <br/>
@@ -157,21 +285,15 @@ function EditProfile() {
                   <form>
                   
                     
-                    <div style={{border:"1px solid lightgray"}} class="row">
+                    <div  class="row">
                       <div class="col-md-12">
                         <div class="form-group">
                        
                           <div class="form-group">
                             
-                            <textarea class="form-control" rows="8">
+                            <textarea class="form-control" rows="4">
 
-                            Hello my name is Ariana Gande Connor and I’m a Financial Supervisor from Netherlands, Rotterdam. 
-                            In pharetra orci dignissim, blandit mi semper, ultricies diam. Suspendisse malesuada suscipit nunc non volutpat. 
-                            Sed porta nulla id orci laoreet tempor non consequat enim. Sed vitae aliquam velit. Aliquam ante accumsan ac est. 
-                            Integer vehicula rhoncus molestie. Morbi ornare ipsum sed sem condimentum, et pulvinar tortor luctus. 
-                            Suspendisse condimentum lorem ut elementum aliquam. Mauris nec erat ut libero vulputate pulvinar. Aliquam ante erat, blandit at pretium et, accumsan ac est. Integer vehicula rhoncus molestie. Morbi ornare ipsum sed sem condimentum,et pulvinar tortor luctus.
-                             Suspendisse condimentum lorem ut elementum aliquam. Mauris nec
-
+                            Authorized Apple Systems Integrator and a brand of SIS.  Our services include: SI Solutions of Apple Technology, Mobile Device Management, App Development, Creative Apple Solutions, Solutions for education and training and reselling of Apple Hardware online for B2B customers.
 
                             </textarea>
                           </div>

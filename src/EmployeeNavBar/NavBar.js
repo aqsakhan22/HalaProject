@@ -11,6 +11,7 @@ function NavBar() {
           
           
           <img style={{verticalAlign:"middle"},{width:"200p"},{height:"80px"}}  src={companylogo}/>
+          <span id="Companyname" >Identiti</span>
          
           </div>
           <button className="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +27,7 @@ function NavBar() {
               <li className="nav-item dropdown">
                 <a className="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  
-                  <span id="profilename" >Identiti</span>
+                  <span id="profilename" >Hind</span>
                   
                 </a>
                 

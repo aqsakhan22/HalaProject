@@ -10,6 +10,7 @@ import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 
 import TalentProfile from '../EmployeerContent/TalentProfile'
 import EditProfile from '../EmployeerContent/EditProfile'
+import MainDashboard from '../EmployeerContent/MainDashboard'
 
 function Employee() {
     return (
@@ -26,14 +27,15 @@ function Employee() {
 <NavBar/>
 <div class="content">
 <Switch>
-{/* <Route path="/" exact><MainDashboard/></Route> */}
+<Route path="/" exact><MainDashboard/></Route>
 
     <Route path="/MyProfile" exact><MyProfile/></Route>
     <Route path="/TalentListing" exact><TalentListing/></Route>
     <Route path="/BestWishList"><BestMatch/></Route>
     <Route path="/Faqs" exact><Faqs/></Route>
     <Route path="/firsttalent" exact><TalentProfile/></Route>
-    <Route path="/editprofile" exact><EditProfile/></Route>
+    <Route path="/editprofile" exact><EditProfile/></Route> 
+    <Route path="/talent1profile" exact><TalentProfile/></Route>
    
 </Switch>
 

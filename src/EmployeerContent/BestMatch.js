@@ -2,6 +2,7 @@ import React from 'react'
 import '../Styles/profileform.css'
  import logo from '../assets/img/logo/profile.png'
  import '../Styles/Best.css'
+ import {Link} from 'react-router-dom'
 function BestMatch() {
 
     return(
@@ -12,37 +13,72 @@ function BestMatch() {
      
       <div className="container">
      <br/>
-     
+     <div  style={{border:"2px solid lightgray"}} class="card">
+     <div   class="card-body">
      <div class="row">
        
-<div class="row-md-7" >
-  <div class="col"></div>
-<div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   Search By Category
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Professional Services</a>
-    <a class="dropdown-item" href="#">Creative</a>
-    <a class="dropdown-item" href="#">Financial Services</a>
-    <a class="dropdown-item" href="#">Transport & Logistics</a>
-    <a class="dropdown-item" href="#">Consumer</a>
-    <a class="dropdown-item" href="#">Telecoms, Media & Tech</a>
+       <div class="col-md-8" >
+         
+       <div class="dropdown">
+         <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Search By Category
+         </button>
+         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="#">Professional Services</a>
+           <a class="dropdown-item" href="#">Creative</a>
+           <a class="dropdown-item" href="#">Financial Services</a>
+           <a class="dropdown-item" href="#">Transport & Logistics</a>
+           <a class="dropdown-item" href="#">Consumer</a>
+           <a class="dropdown-item" href="#">Telecoms, Media & Tech</a>
+           
+           <a class="dropdown-item" href="#">Government & Non-Profit</a>
+           <a class="dropdown-item" href="#">Manufacturing & Engineering</a>
+           <a class="dropdown-item" href="#">All</a>
+         </div>
+       </div>
+       
+       </div>
+       <div class="col-md-4">
+       <div class="active-cyan-3 active-cyan-4 mb-4">
+       <input class="form-control" type="text" placeholder="Search by Name" aria-label="Search " />
+       </div>
+       </div>
+       </div>
+       
+           
+           
+           
+           
+           
+           
+           
+       </div>    
+     </div>
+
+
+
+
+
+     
     
-    <a class="dropdown-item" href="#">Government & Non-Profit</a>
-    <a class="dropdown-item" href="#">Manufacturing & Engineering</a>
-    <a class="dropdown-item" href="#">All</a>
-  </div>
-</div>
-
-</div>
-<div class="col-md-4">
-<div class="active-cyan-3 active-cyan-4 mb-4">
-<input class="form-control" type="text" placeholder="Search by Name" aria-label="Search " />
-</div>
-</div>
+       
 
 
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
      <div  style={{border:"2px solid lightgray"}} class="card">
               {/* <div class="card-header card-header-primary">
                 
@@ -51,15 +87,15 @@ function BestMatch() {
               <br/>
               <div   class="card-body">
                 
-                  <div  class="row">
+                  <div  class="row" style={{marginTop:"-80px"}}>
                    
                     <div class="col-md-3">
                       <div class="form-group">
-                       <img src={logo} style={{width:"200px"}}  />
+                       <img src={logo} style={{width:"200px"},{marginTop:"40px"}}  />
                       </div>
                     </div>
                    
-                    <div class="col-md-3" >
+                    <div class="col-md-3" style={{marginTop:"40px"}} >
                       <div class="form-group">
                       <label id="textset" >Megan Dudding</label>
                       <br/>
@@ -69,12 +105,13 @@ function BestMatch() {
                       </div>
                       <br/>
                     </div>
-                    <div   id="btnsection" class="col" >
-                      <div  class="form-group">
+                    <div    id="btnsection" class="col" >
+                      <div style={{marginTop:"40px"}} class="form-group">
                      
-                      <button id="intern"   type="submit" class="btn btn-primary">Internship</button>
+                      <a id="view" href="#" >Internship</a>
                       <br/>
-                      <a id="view" href="#" >View Profile</a>
+                    <Link to="/talent1profile"><button id="intern"   type="submit" class="btn btn-primary" style={{borderRadius:"20px"}} >View Profile</button>
+                      </Link>  
                       </div>
                     </div>
                    
@@ -103,7 +140,7 @@ function BestMatch() {
          
          
          
-     </div>
+  
         
           
           
@@ -123,11 +160,11 @@ function BestMatch() {
                 <br/>
                 <div   class="card-body">
                   
-                    <div  class="row">
+                    <div style={{marginTop:"-80px"}}  class="row">
                      
                       <div class="col-md-3">
                         <div class="form-group">
-                         <img src={logo} style={{width:"200px"}}  />
+                         <img src={logo} style={{width:"200px"},{marginTop:"40px"}} />
                         </div>
                       </div>
                      
@@ -142,11 +179,11 @@ function BestMatch() {
                         <br/>
                       </div>
                       <div   id="btnsection" class="col" >
-                        <div  class="form-group">
+                        <div style={{marginTop:"40px"}}  class="form-group">
                        
-                        <button id="Permanent"   type="submit" class="btn btn-primary">Permanent</button>
+                        <a  id="view" href="#"  >Permanent</a>
                         <br/>
-                        <a id="view" href="#" >View Profile</a>
+                        <button id="Permanent"  type="submit" class="btn btn-primary" style={{borderRadius:"20px"}}  >View Profile</button>
                         </div>
                       </div>
                       
@@ -196,11 +233,11 @@ function BestMatch() {
                 <br/>
                 <div   class="card-body">
                   
-                    <div  class="row">
+                    <div style={{marginTop:"-80px"}}  class="row">
                      
                       <div class="col-md-3">
                         <div class="form-group">
-                         <img src={logo} style={{width:"200px"}}  />
+                         <img src={logo} style={{width:"200px"},{marginTop:"40px"}}  />
                         </div>
                       </div>
                      
@@ -215,11 +252,11 @@ function BestMatch() {
                         <br/>
                       </div>
                       <div   id="btnsection" class="col" >
-                        <div  class="form-group">
+                        <div style={{marginTop:"40px"}} class="form-group">
                        
-                        <button  type="submit" class="btn btn-primary">Contract</button>
+                        <a id="view" href="#" >Contract</a>
                         <br/>
-                        <a id="view" href="#" >View Profile</a>
+                        <button  type="submit" class="btn btn-primary" style={{borderRadius:"20px"}} >View Profile</button>
                         </div>
                       </div>
                       
