@@ -19,12 +19,14 @@ import Sidebar from './SideBar/Sidebar'
 import Navbar from './NavBar/Navbar'
 import Footer from './Footer/Footer'
 import Content from './Content/CompanyListing'
-import Main from './Main/Main'
+
 import CProfile from './Content/CProfile'
 import CompanyProfile from './Content/CompanyProfile'
 import Userprofile from './Content/UserProfile'
 import Add from './AddQualification/Add'
 import Extra from './extra/Listing'
+
+import Main from './Main/Main'
 import Employee from './EmployerDashboard/Employee'
 import Admin from './AdminDashboard/Admin'
 
@@ -47,7 +49,7 @@ ReactDOM.render(
     // <Employee/>
     // <Admin/>
     
-    <Main/>
+    <Employee/>
     
 
 

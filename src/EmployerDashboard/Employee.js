@@ -38,6 +38,8 @@ function Employee() {
     <Route path="/editprofile" exact><EditProfile/></Route> 
     <Route path="/talent1profile" exact><TalentProfile/></Route>
     <Route path="/shortlist" exact><ShortList/></Route>
+    <Route path="/Talent1"><TalentProfile/></Route>
+    
    
 </Switch>
 
