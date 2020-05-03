@@ -26,6 +26,7 @@ import Userprofile from './Content/UserProfile'
 import Add from './AddQualification/Add'
 import Extra from './extra/Listing'
 import Employee from './EmployerDashboard/Employee'
+import Admin from './AdminDashboard/Admin'
 
 ReactDOM.render(
   // <Router><Candidate/></Router>
@@ -43,7 +44,8 @@ ReactDOM.render(
   //  </Router>
   //  <Main/>
   
-    <Employee/>
+    // <Employee/>
+    <Admin/>
     
     
 

@@ -32,7 +32,7 @@ function AdminSidebar() {
 
             <Link  id="btnhover" className="nav-link" to="/Employeer" >
               <i className="material-icons">person</i>
-              <p >Employeer</p>
+              <p >Employer</p>
               </Link>
           </li>
          
@@ -54,9 +54,9 @@ function AdminSidebar() {
            
           </li>
           <li className="nav-item ">
-          <Link id="btnhover" className="nav-link" to="/shortlist">
+          <Link id="btnhover" className="nav-link" to="/subscription">
               <i className="material-icons">list</i>
-              <p>Talent ShortList</p>
+              <p>Subscription info</p>
               </Link>
               
            

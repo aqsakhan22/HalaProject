@@ -61,7 +61,7 @@ function ShortList() {
 						<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Identiti</p> */}
 							<p   id="cardtext3" >Megan Dudding </p>
-							<p id="cardtext4"  >Professional Services</p>
+							<p id="cardtext4" style={{fontSize:"11px"}}  >Professional Services</p>
 							<p id="cardtext"  >Kuwait </p>
 						</div>
                     
@@ -88,7 +88,7 @@ function ShortList() {
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p> */}
 							<p id="cardtext3"   >Marcus Sanders </p>
-							<p id="cardtext4"  >Manufacturing & Engineering</p>
+							<p id="cardtext4" style={{fontSize:"11px"}} >Manufacturing & Engineering</p>
 							<p id="cardtext"  >Dubai</p>
 						</div>
 					</div>
@@ -109,7 +109,7 @@ function ShortList() {
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p> */}
 							<p  id="cardtext3"  >Raj Heronea</p>
-							<p id="cardtext4"  >Professional Services</p>
+							<p id="cardtext4" style={{fontSize:"11px"}} >Professional Services</p>
 							<p id="cardtext"  >Egypt</p>
 						</div>
 					</div>
@@ -130,7 +130,7 @@ function ShortList() {
 				<div class="text">
 						{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p> */}
 						<p   id="cardtext3" >Mike Lenning</p>
-						<p id="cardtext4"  >Creative</p>
+						<p id="cardtext4" style={{fontSize:"11px"}} >Creative</p>
 						<p id="cardtext"  >Morroco </p>
 					</div>
 				</div>
@@ -151,7 +151,7 @@ function ShortList() {
 				<div class="text">
 						{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p> */}
 						<p id="cardtext3" >Janya Harper </p>
-						<p id="cardtext4" >Financial Services</p>
+						<p id="cardtext4" style={{fontSize:"11px"}}>Financial Services</p>
 						<p id="cardtext" >Turkey</p>
 					</div>
 				</div>
