@@ -400,7 +400,7 @@ function Dashboard() {
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Hire Me</a>
+                          <a id="head3" href="#" >Hire Me</a>
                           
     </div>
     <div  class=" btn-sm float-left">
@@ -410,7 +410,7 @@ function Dashboard() {
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Unavailable</a>
+                          <a id="head3" href="#" >Unavailable</a>
     </div>
     
   </div>
@@ -543,14 +543,14 @@ function Dashboard() {
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Permanant</a>
+                          <a id="head3" href="#" >Permanant</a>
 
              <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Contract</a>
+                          <a id="head3" href="#" >Contract</a>
                           
     </div>
     <div  class=" btn-sm float-left">
@@ -560,13 +560,13 @@ function Dashboard() {
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Internship</a>
+                          <a id="head3" href="#" >Internship</a>
                           <Checkbox
        
        inputProps={{ 'aria-label': 'secondary checkbox' }}
        color="primary"
      />
-                          <a id="head2" href="#" >Remote</a>
+                          <a id="head3" href="#" >Remote</a>
     </div>
     
     

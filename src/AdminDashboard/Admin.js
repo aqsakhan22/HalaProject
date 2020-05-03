@@ -63,6 +63,9 @@ function Employee() {
 <Route path="/Talentprofile" exact><TalentProfile/></Route> 
 <Route path="/Talentwishlist" exact><TalentWishlist/></Route> 
 
+<Route path="/firsttalent"><TalentProfile/></Route>
+<Route path="/talent1profile"><TalentProfile/></Route>
+
     
 
     

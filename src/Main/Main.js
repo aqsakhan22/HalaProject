@@ -32,7 +32,7 @@ function Main() {
     <Route path="/CompanyListing" exact><CompanyListing/></Route>
     <Route path="/UserProfile" exact><UserProfile/></Route>
     <Route path="/editprofile"><Dashboard/></Route>
-    <Route path="/CProfile" exact><CProfile/></Route>
+    {/* <Route path="/CProfile" exact><CProfile/></Route> */}
     <Route path="/identiti" ><CProfile/></Route>
     <Route path="/WishList"><WishList/></Route>
     <Route path="/Faqs"><Faqs/></Route>

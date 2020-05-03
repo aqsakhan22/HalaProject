@@ -29,16 +29,21 @@ function Employee() {
 <div class="content">
 <Switch>
 <Route path="/" exact><MainDashboard/></Route>
-
-    <Route path="/MyProfile" exact><MyProfile/></Route>
-    <Route path="/TalentListing" exact><TalentListing/></Route>
-    <Route path="/BestWishList"><BestMatch/></Route>
-    <Route path="/Faqs" exact><Faqs/></Route>
-    <Route path="/firsttalent" exact><TalentProfile/></Route>
-    <Route path="/editprofile" exact><EditProfile/></Route> 
-    <Route path="/talent1profile" exact><TalentProfile/></Route>
-    <Route path="/shortlist" exact><ShortList/></Route>
-    <Route path="/Talent1"><TalentProfile/></Route>
+<Route path="/MyProfile" exact><MyProfile/></Route>
+<Route path="/editprofile" exact><EditProfile/></Route> 
+<Route path="/TalentListing" exact><TalentListing/></Route>
+<Route path="/Talent1"><TalentProfile/></Route>
+<Route path="/BestWishList"><BestMatch/></Route>  
+<Route path="/shortlist" exact><ShortList/></Route>
+<Route path="/Faqs" exact><Faqs/></Route>
+    
+    
+    
+    {/* <Route path="/firsttalent" exact><TalentProfile/></Route>
+   
+    <Route path="/talent1profile" exact><TalentProfile/></Route> */}
+    
+ 
     
    
 </Switch>

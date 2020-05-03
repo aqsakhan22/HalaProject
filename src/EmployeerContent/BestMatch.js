@@ -103,7 +103,7 @@ function BestMatch() {
                      
                       <a id="view" href="#" >Internship</a>
                       <br/>
-                    <Link to="/talent1profile"><button id="intern"   type="submit" class="btn btn-primary" style={{borderRadius:"20px"}} >View Profile</button>
+                    <Link to="/Talent1"><button id="intern"   type="submit" class="btn btn-primary" style={{borderRadius:"20px"}} >View Profile</button>
                       </Link>  
                       </div>
                     </div>
