@@ -7,6 +7,8 @@ import koinz from '../assets/img/logo/koinz.PNG'
 import botify from '../assets/img/logo/botify.PNG'
 import {Link} from 'react-router-dom'
 import Checkbox from '@material-ui/core/Checkbox';
+import shoragesnew from '../assets/img/logo/shoragenew.PNG'
+import feebacknew from '../assets/img/logo/feebacknew.PNG'
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import Favorite from '@material-ui/icons/Favorite';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -21,7 +23,7 @@ function CompanyListing() {
        
       /> */}
     <div class="container-fluid">
-	<h2 id="sector" >Sector</h2>
+	{/* <h2 id="sector" >Sector</h2> */}
 	
 	<div class="md-form mt-0">
 	<input class="form-control" type="text" placeholder="Search By Filters" aria-label="Search"/>
@@ -99,13 +101,7 @@ function CompanyListing() {
 </div>
 
 	</div>
-	<div id="cards" class="row">
-
-<div class="col-md-3"></div>
-<div class="col-md-3"></div>
-<div class="col-md-3"></div>
 	
-	</div>
 
 
 
@@ -117,7 +113,7 @@ function CompanyListing() {
 
 
 	<div class="row">
-		 <div   style={{padding:"20px"}}  class=" col-md-3 ">
+		 <div   style={{padding:"20px"}}  class=" col-md-2 ">
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -142,7 +138,7 @@ function CompanyListing() {
                         
 					 </div>
 				</div>	 
-				<div style={{padding:"20px"}} class="col-md-3 ">
+				<div style={{padding:"20px"}} class="col-md-2 ">
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -150,7 +146,7 @@ function CompanyListing() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span>
                             
-					<img   src={botify} alt="" />
+					<img   src={shoragesnew} alt="" />
 						
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p>
@@ -162,7 +158,7 @@ function CompanyListing() {
                         
 				
 				</div>	 
-				<div style={{padding:"20px"}} class="col-md-3">
+				<div style={{padding:"20px"}} class="col-md-2">
 				
 				
 					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -170,7 +166,7 @@ function CompanyListing() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span>
                             
-					<img style={{width:"40%"}} src={identiti} alt="" />
+					<img style={{width:"50%"}} src={feebacknew} alt="" />
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p>
 							<p  id="cardtext1"  >Market Research</p>
@@ -181,7 +177,7 @@ function CompanyListing() {
                         
 					
 				</div>	 
-				<div style={{padding:"20px"}} class="col-md-3">
+				<div style={{padding:"20px"}} class="col-md-2">
 				
 					
 				<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
@@ -200,32 +196,30 @@ function CompanyListing() {
 					
 				
 			</div>	
-	</div>
-
-
-	<div class="row">
-		 
-				<div style={{padding:"20px"}} class="col-md-3">
+			<div style={{padding:"20px"}} class="col-md-2">
 				
 					
-					<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
-					<span  className="promotepof-badge">
-                                <i  className="fa fa-star" title="Featured"></i>
-                              </span>
-                             
-					<img src={botify} alt="" />
-					<div class="text">
-							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p>
-							<p id="cardtext1" >Fashion & Design</p>
-							<p id="cardtext" >Dubai,United Arab</p>
-						</div>
+				<div id="cards" style={{backgroundColor:"white"}} className="candidate-grid">
+				<span  className="promotepof-badge">
+							<i  className="fa fa-star" title="Featured"></i>
+						  </span>
+						 
+				<img src={botify} alt="" />
+				<div class="text">
+						<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p>
+						<p id="cardtext1" >Fashion & Design</p>
+						<p id="cardtext" >Dubai,United Arab</p>
 					</div>
-                      
-                        
-					 </div>
-				
-				
+				</div>
+				  
+					
+				 </div>
+			
+			
 	</div>
+
+
+	
 
 </div>
 
