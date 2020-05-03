@@ -43,24 +43,35 @@ function Employee() {
 
 <Switch>
 <Route path="/" exact><MainDashboard/></Route>
+<Route path="/Employeer" exact><Employeer/></Route>
+<Route path="/dash" exact><EmployeeDashboard/></Route>
+<Route path="/mydashboard" exact><EmployeeMainDashboard/></Route> 
+<Route path="/Employerprofile" exact><EmployerProfile/></Route>
+<Route path="/Employerwishlist" exact><EmployerShortList/></Route> 
+<Route path="/Talent" exact><Talent/></Route>
+<Route path="/TalentDashboard" exact><TalentMainDashboard/></Route> 
+<Route path="/mytalentdashboard" exact><TalentDashboard/></Route> 
+<Route path="/Talentprofile" exact><TalentProfile/></Route> 
 
-    <Route path="/Employeer" exact><Employeer/></Route>
-    <Route path="/Talent" exact><Talent/></Route>
+
+
+
+   
     <Route path="/shortlist"><TalentShortList/></Route>
     <Route path="/BestMatch"><BestMatch/></Route>
     <Route path="/Faqs" exact><Faqs/></Route>
     <Route path="/subscription" exact><Subscription/></Route>
     
-    <Route path="/dash" exact><EmployeeDashboard/></Route>
-    <Route path="/mydashboard" exact><EmployeeMainDashboard/></Route> 
-    <Route path="/Employerprofile" exact><EmployerProfile/></Route>
-    <Route path="/Employerwishlist" exact><EmployerShortList/></Route> 
+   
+    
+   
+    
 
 
 {/* {talent} */}
-<Route path="/TalentDashboard" exact><TalentMainDashboard/></Route> 
-<Route path="/mytalentdashboard" exact><TalentDashboard/></Route> 
-<Route path="/Talentprofile" exact><TalentProfile/></Route> 
+
+
+
 <Route path="/Talentwishlist" exact><TalentWishlist/></Route> 
 
 <Route path="/firsttalent"><TalentProfile/></Route>
