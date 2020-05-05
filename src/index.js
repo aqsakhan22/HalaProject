@@ -49,8 +49,8 @@ ReactDOM.render(
     // <Employee/>
     //  <Admin/>
     
-    //  <Employee/>
-    <Main/>
+     <Employee/>
+    // <Main/>
     
 
 
