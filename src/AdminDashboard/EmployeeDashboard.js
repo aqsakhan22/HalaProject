@@ -47,7 +47,7 @@ function EmployeeDashboard() {
                   
                  
                      <div  class="col-md-4">
-                     <Link to="/mydashboard"> <button id="btn1"   type="button" class="btn btn-primary">Check</button></Link>
+                     <Link to="/mydashboard"> <button id="btn1"   type="button" class="btn btn-primary">Click Here</button></Link>
                     
                   
                      </div>
@@ -95,7 +95,7 @@ function EmployeeDashboard() {
                   
                  
                      <div  class="col-md-4">
-                     <Link to="/Employerprofile"> <button id="btn1"   type="button" class="btn btn-primary">Check</button></Link>
+                     <Link to="/Employerprofile"> <button id="btn1"   type="button" class="btn btn-primary">Click Here</button></Link>
                     
                   
                      </div>
@@ -139,7 +139,7 @@ function EmployeeDashboard() {
                   
                  
                      <div  class="col-md-4">
-                     <Link to="/Employerwishlist"> <button id="btn1"   type="button" class="btn btn-primary">Check</button></Link>
+                     <Link to="/Employerwishlist"> <button id="btn1"   type="button" class="btn btn-primary">Click Here</button></Link>
                     
                   
                      </div>

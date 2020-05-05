@@ -25,7 +25,7 @@ return(
       </th>
       <td style={{color:"black"},{fontWeight:"bold"}}>Monthly $600</td>
       <td style={{color:"black"},{fontWeight:"bold"}}>21-04-2020</td>
-      <td style={{color:"black"},{fontWeight:"bold"}}>21-04-2021</td>
+      <td style={{color:"black"},{fontWeight:"bold"}}>21-05-2020</td>
       <td style={{color:"black"},{fontWeight:"bold"}}>
       <div class="custom-control custom-radio">
   <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios"  checked  />
@@ -33,7 +33,7 @@ return(
 </div>
 
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios"/> 
+  <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" /> 
   <label style={{color:"black"},{fontWeight:"bold"}} class="custom-control-label" for="defaultChecked">InActive</label>
 </div>
 </td>
@@ -54,14 +54,14 @@ return(
       <td style={{color:"black"},{fontWeight:"bold"}}>21-04-2021</td>
       <td>
       <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="defaultUnchecked"   checked  />
-  <label style={{color:"black"},{fontWeight:"bold"}}  class="custom-control-label" for="defaultUnchecked">Active</label>
+  <input type="radio" class="custom-control-input" id="defaultUnchecked1" name="defaultExampleRadios1"  checked  />
+  <label style={{color:"black"},{fontWeight:"bold"}} class="custom-control-label" for="defaultUnchecked">Active</label>
 </div>
 
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="defaultChecked" /> 
+  <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" /> 
   <label style={{color:"black"},{fontWeight:"bold"}} class="custom-control-label" for="defaultChecked">InActive</label>
-</div>
+</div>  
 </td>
     </tr>
    

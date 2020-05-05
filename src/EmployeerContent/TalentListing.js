@@ -104,6 +104,63 @@ function TalentListing() {
 	
 	
 	
+	<br/>
+	
+	
+	
+	
+	
+
+	<h2 id="sector" >Job Type</h2>
+	<div id="cards" class="row">
+
+
+<div class="col-md-3">
+<Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+    <a href="#" id="intro1">Permanent</a>
+</div>
+<div class="col-md-3">
+<Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+    <a href="#" id="intro1">Internship</a>
+</div>
+<div class="col-md-3">
+<Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+    <a href="#" id="intro1">Contract</a>
+</div>
+
+<div class="col-md-3">
+<Checkbox
+       
+       inputProps={{ 'aria-label': 'secondary checkbox' }}
+       color="primary"
+     />
+                          <a href="#" id="intro1">Remote</a>
+</div>
+
+
+	
+	
+
+
+
+	</div>
+	
+	
+	
+	
+	
 	
 	
 	

@@ -100,7 +100,7 @@ function EditProfile() {
    
   <form class="md-form">
   <div  class="file-field">
-    <span id="head1" >Company Logo</span>
+    <span id="head6" >Company Logo</span>
     <div  class="btn btn-primary btn-sm float-left">
       
       <input  type="file"/>

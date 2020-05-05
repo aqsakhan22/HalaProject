@@ -100,8 +100,9 @@ letter-spacing: 2px;
 }
 #btn1{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     background-color: white;
     color: purple;
+    border-radius: 10px;
   
 }

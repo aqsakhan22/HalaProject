@@ -71,7 +71,7 @@ function WishList() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span>
                             
-					<img   src={shoragesnew} alt="" />
+							  <Link to="/shorage" >		<img   src={shoragesnew} alt="" /></Link>
 						
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p>
@@ -91,7 +91,7 @@ function WishList() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span>
                             
-					<img style={{width:"50%"}} src={feebacknew} alt="" />
+							  <Link to="/feeback" >		<img style={{width:"50%"}} src={feebacknew} alt="" /></Link>
 					<div class="text">
 							<p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p>
 							<p  id="cardtext1"  >Market Research</p>
@@ -110,7 +110,7 @@ function WishList() {
 							<i  className="fa fa-star" title="Featured"></i>
 						  </span>
 						
-				<img src={koinz} alt="" />
+						  <Link to="/koinz">	<img src={koinz} alt="" /></Link>>
 				<div class="text">
 						<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p>
 						<p   id="cardtext1" >Internet</p>
@@ -129,7 +129,7 @@ function WishList() {
 							<i  className="fa fa-star" title="Featured"></i>
 						  </span>
 						 
-				<img src={botify} alt="" />
+						  <Link to="/botify" >	<img src={botify} alt="" /></Link>
 				<div class="text">
 						<p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p>
 						<p id="cardtext1" >Fashion & Design</p>

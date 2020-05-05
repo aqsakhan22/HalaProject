@@ -67,7 +67,7 @@ function MyProfile() {
                                         <div class="row">
                                             <div class="col-md-6">
                                               
-                                                <h4 class="font-weight-bold" style={{color:"purple"}} >Industry</h4>
+                                                <h4 class="font-weight-bold" style={{color:"purple"}} >Sector</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p id="subdata1">Computer Software</p>
@@ -75,7 +75,7 @@ function MyProfile() {
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                            <h4 class="font-weight-bold" style={{color:"purple"}} >Head Headquarters</h4>
+                                            <h4 class="font-weight-bold" style={{color:"purple"}} >HeadQuarters</h4>
                                             </div>
                                             <div class="col-md-6">
                                                 <p id="subdata1">Riyadh, Saudi Arabia</p>
@@ -139,7 +139,24 @@ function MyProfile() {
               </div>
                 </div>
 				<br/>
-				<div class="row" style={{border:'1px solid lightgrey'}}>
+				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="row" style={{border:'1px solid lightgrey'}}>
 <h3 id="description1" class="font-weight-bold" style={{color:"purple"}}>
 	Company Description
 </h3>

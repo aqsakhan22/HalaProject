@@ -26,7 +26,7 @@ function Dashboard() {
               <div class="card">
                 <div class="card-header card-header-primary">
                   
-                  <p class="card-category">Complete your profile</p>
+                  <p class="card-category">My profile</p>
                 </div>
                 <br/>
                 <div class="card-body">
@@ -102,7 +102,7 @@ function Dashboard() {
    
   <form class="md-form">
   <div  class="file-field">
-    <span id="head1" >Profile Picture</span>
+    <span id="head6" >Profile Picture</span>
     <div  class="btn btn-primary btn-sm float-left">
       
       <input  type="file"/>
@@ -201,7 +201,7 @@ function Dashboard() {
 
   <form class="md-form">
   <div  class="file-field">
-    <span id="head1">Cover Video</span>
+    <span id="head6">Cover Video</span>
     <div  class="btn btn-primary btn-sm float-left">
       
       <input  type="file"/>
@@ -272,7 +272,7 @@ function Dashboard() {
    
   <form class="md-form">
   <div  class="file-field">
-    <span id="head1">Upload Cv</span>
+    <span id="head6">Upload Cv</span>
     <div  class="btn btn-primary btn-sm float-left">
       
       <input  type="file"/>
@@ -390,7 +390,7 @@ function Dashboard() {
   <div class="card-body">
    
   <form class="md-form">
-  <span id="head1">Current Status</span>
+  <span id="head6">Current Status</span>
   <div  class="file-field">
     
     <div  class=" btn-sm float-left">
@@ -533,7 +533,7 @@ function Dashboard() {
   <div class="card-body">
    
   <form class="md-form">
-  <span id="head1">Job Type</span>
+  <span id="head6">Job Type</span>
   <div  class="file-field">
     
     <div  class=" btn-sm float-left">
@@ -616,7 +616,7 @@ function Dashboard() {
                       
                     </div>
                     <br/>
-                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
+                    <button type="submit" class="btn btn-primary pull-right">Submit</button>
                    
 
 

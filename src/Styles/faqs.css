@@ -1,4 +1,4 @@
-#head{
+/* #head{
     font-weight: bold;
 
 }
@@ -12,4 +12,16 @@
     color:black;
    
     
+} */
+
+#mainhead{
+    font-weight: bold;
+
+}
+#mainhead1{
+    font-size: 20px;
+}
+#mainhead2{
+    font-weight: bold;
+    color:black;
 }

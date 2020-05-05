@@ -11,6 +11,10 @@ import Dashboard from '../Content/Dashboard'
 import Faqs from '../Content/FAQS'
 import MainDashboard from '../Content/MainDashboard'
 import WishList from '../Content/Wishlist'
+import Shorages from '../Content/Shorages'
+import Feeback from '../Content/Feeback'
+import Koinz from '../Content/Koinz'
+import Botify from '../Content/Botify'
 
 function Main() {
     return (
@@ -36,6 +40,22 @@ function Main() {
     <Route path="/identiti" ><CProfile/></Route>
     <Route path="/WishList"><WishList/></Route>
     <Route path="/Faqs"><Faqs/></Route>
+
+{/* {shorages} */}
+
+<Route path="/shorage"><Shorages/></Route>
+
+<Route path="/feeback"><Feeback/></Route>
+
+<Route path="/koinz"><Koinz/></Route>
+
+<Route path="/botify"><Botify/></Route>
+
+
+
+
+
+
 </Switch>
 
 </div>

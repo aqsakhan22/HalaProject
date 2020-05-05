@@ -147,7 +147,7 @@ function BestMatch() {
           
      <div class="row">
        
-       <div   style={{border:"2px solid lightgray"},{height:"160px"}} class="card">
+       <div   style={{border:"2px solid lightgray"}} class="card">
                 {/* <div class="card-header card-header-primary">
                   
                   <p class="card-category">Complete your profile</p>

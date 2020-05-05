@@ -29,7 +29,7 @@ function UserProfile() {
                     
                         <label id="member">Member since 04/01/2020</label> 
                         <br/>
-                        <label id="name1" >4strokesonline@gmail.com</label>
+                        <label id="name1" >megandudding@gmail.com</label>
                    
                     </div>
                    
@@ -59,10 +59,7 @@ function UserProfile() {
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Gender</label>
                                                 <p  id="intro1">Female </p>
                                             </div>
-                                            <div  class="col-md-4">
-                                                <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Industry</label>
-                                                <p  id="intro1">Medical  </p>
-                                            </div>
+                                            
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Location</label>
                                                 <p  id="intro1">Kuwait </p>
