@@ -42,7 +42,7 @@ function Employee() {
 <div class="content">
 
 <Switch>
-<Route path="/" exact><MainDashboard/></Route>
+<Route path="/Admin" exact><MainDashboard/></Route>
 <Route path="/Employeer" exact><Employeer/></Route>
 <Route path="/dash" exact><EmployeeDashboard/></Route>
 <Route path="/mydashboard" exact><EmployeeMainDashboard/></Route> 
