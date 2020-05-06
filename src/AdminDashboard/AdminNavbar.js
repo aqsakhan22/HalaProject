@@ -28,7 +28,7 @@ return(
               <li className="nav-item dropdown">
                 <a className="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  
-                  <span id="profilename" >AdminName</span>
+                  <span id="profilename" >Admin</span>
                   
                 </a>
                 

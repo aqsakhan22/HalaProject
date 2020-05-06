@@ -8,7 +8,7 @@ function MainDashboard() {
 
 
 
-        <h2 id="main">Admin Dashboard</h2>
+        <h2 id="main">Admin</h2>
         <br/>
        <div class="content">
         <div class="container-fluid">
@@ -159,7 +159,7 @@ function MainDashboard() {
                 <div class="card-footer">
                   
                    
-                    <h4 id="head1" > Resume </h4>
+                    <h4 id="head1" > Total Resume </h4>
                   
                 </div>
               </div>

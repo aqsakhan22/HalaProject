@@ -8,10 +8,17 @@ import Faqs from '../EmployeerContent/Faqs'
 import Footer from '../EmployeerContent/Footer'
 import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 
-import TalentProfile from '../EmployeerContent/TalentProfile'
+
 import EditProfile from '../EmployeerContent/EditProfile'
 import MainDashboard from '../EmployeerContent/MainDashboard'
 import ShortList from '../EmployeerContent/ShortList'
+
+// {Talent Profule}
+import TalentProfile from '../EmployeerContent/TalentProfile'
+import Talent2 from '../EmployeerContent/Talent2'
+import Talent3 from '../EmployeerContent/Talent3'
+import Talent4 from '../EmployeerContent/Talent4'
+import Talent5 from '../EmployeerContent/Talent5'
 
 function Employee() {
     return (
@@ -28,11 +35,20 @@ function Employee() {
 <NavBar/>
 <div class="content">
 <Switch>
-<Route path="/" exact><MainDashboard/></Route>
+<Route path="/Employee" exact><MainDashboard/></Route>
 <Route path="/MyProfile" exact><MyProfile/></Route>
 <Route path="/editprofile" exact><EditProfile/></Route> 
 <Route path="/TalentListing" exact><TalentListing/></Route>
+
+{/* {Talent Profile} */}
 <Route path="/Talent1"><TalentProfile/></Route>
+<Route path="/Talent2"><Talent2/></Route>
+<Route path="/Talent3"><Talent3/></Route>
+<Route path="/Talent4"><Talent4/></Route>
+<Route path="/Talent5"><Talent5/></Route>
+
+
+
 <Route path="/BestWishList"><BestMatch/></Route>  
 <Route path="/shortlist" exact><ShortList/></Route>
 <Route path="/Faqs" exact><Faqs/></Route>

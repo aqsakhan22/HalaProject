@@ -29,6 +29,7 @@ import Extra from './extra/Listing'
 import Main from './Main/Main'
 import Employee from './EmployerDashboard/Employee'
 import Admin from './AdminDashboard/Admin'
+import Alldashboard from './Alldasboard'
 
 ReactDOM.render(
   // <Router><Candidate/></Router>
@@ -47,15 +48,17 @@ ReactDOM.render(
   //  <Main/>
   
     // <Employee/>
-     <Admin/>
+    //  <Admin/>
     
     //  <Employee/>
+
+    
     // <Main/>
     
 
 
 
-  
+  <Alldashboard/>
 
 
 

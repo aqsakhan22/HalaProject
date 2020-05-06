@@ -31,7 +31,11 @@ function Main() {
 <Navbar/>
 <div class="content">
 <Switch>
-<Route path="/" exact><MainDashboard/></Route>
+  
+<Route path="/Talent" exact><MainDashboard/></Route>
+
+
+
 
     <Route path="/CompanyListing" exact><CompanyListing/></Route>
     <Route path="/UserProfile" exact><UserProfile/></Route>
