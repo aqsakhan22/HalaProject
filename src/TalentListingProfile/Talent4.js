@@ -2,9 +2,9 @@ import React from 'react';
 import '../Styles/profile.css'
 import identiti from '../assets/img/logo/ProfileDefault.png'
 import {Link} from 'react-router-dom' 
-function UserProfile() {
+function Talent4() {
     return (
-      <div className="UserProfile">
+      <div className="Talent4">
          
 		  
     <div class="container emp-profile">
@@ -16,20 +16,20 @@ function UserProfile() {
                     
                
                     <div  class="col-md-4 " class="align-top">
-                    <label id="name"style={{color:"purple"}}>Megan Dudding</label>
+                    <label id="name"style={{color:"purple"}}>Mike Lenning</label>
                         <br/>
                         
                     <div id="imagedata" >      
-                    <img   style={{width:"40%"},{height:"20%"}}src={identiti} alt=""/> 
+                    <img   style={{width:"100%"},{height:"50%"}}src={identiti} alt=""/> 
                      
                          
                      </div>
                
                     <div >
                     
-                        <label id="member">Member since 04/01/2020</label> 
+                        <label id="member">Member since 01/28/20</label> 
                         <br/>
-                        <label id="name1" >megandudding@gmail.com</label>
+                        <label id="name1" >mikelenning@gmail.com</label>
                    
                     </div>
                    
@@ -44,29 +44,31 @@ function UserProfile() {
                     
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Academic Level</label>
-                                                <p  id="intro1">Bachelors Degree</p>
+                                                <p  id="intro1">Bachelors</p>
                                             </div>
                                             
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Age</label>
-                                                <p  id="intro1">27</p>
+                                                <p  id="intro1">54</p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Salary</label>
-                                                <p  id="intro1">$5700</p>
+                                                <p  id="intro1">$11000</p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Gender</label>
-                                                <p  id="intro1">Female </p>
+                                                <p  id="intro1">Male  </p>
                                             </div>
                                             
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Location</label>
-                                                <p  id="intro1">Kuwait </p>
+                                                <p  id="intro1">Morroco 
+
+</p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Sector</label>
-                                                <p  id="intro1">Professional Services </p>
+                                                <p  id="intro1">Restaurant  </p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>SubCategory</label>
@@ -75,11 +77,18 @@ function UserProfile() {
                                         </div>
                        
                     </div>
+                    
                     <div class="col">
-                   <Link to="/editprofile"><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/></Link>     
+                    <br/>
+                  
+                   <Link><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/></Link>     
                         <br/>
                         <br/>
-                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/>
+                        
+                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Hire Me"/>
+                        <br/>
+                        <br/>
+                        <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="ShortList"/>
                         <br/>
                         
                     </div>
@@ -92,16 +101,15 @@ function UserProfile() {
               
                 <div style={{borderBottom:"2px solid lightgray"}}>
                 <p  class="text-left" id="para">
-          Greetings! I want to thank you for stopping by my profile! I am searching for a rewarding career with advancement opportunities. I have experience as a nurse and also as a clinical psychologist, and I want to utilize that for you! 
+                Love food? Me too! I am looking for a job that will allow me to flex my culinary skills. I like having creative freedom with menu choice as well as food choice. I started as a Sous-chef many years ago, and ever since, I have been cultivating my skills and developing my career. 
               </p>
               <p  class="text-left" id="para">
-              I have been in the medical field since I graduated high school. While I went to college, I worked as a CNA at night. I worked long and hard to get where I am today. I hope to find an employer with ethics and core values that also align to mine. 
-              </p>
-              <p  class="text-left" id="para">
-              If you have any questions or want to chat, please reach out to me. I would love to learn more about your company and its opportunities, thanks again!
+             
+I have worked in multiple restaurants, but my favorite so far has been Mediterranean cuisine. If you are looking for a great chef with a killer CV, let me know! 
 
 
               </p>
+             
                 </div>
              
                
@@ -128,13 +136,13 @@ function UserProfile() {
 <div   class="col-md-6">
 
         
-<span  id="intro1" id="intro3" id="round">Employee Development</span>
+<span  id="intro1" id="intro3" id="round">Culinary Expertise </span>
        
 </div>
 <br/>
 <br/>
 <div  class="col-md-6">     
-<span   id="intro1" id="intro3" id="round">Customer Relations</span>
+<span   id="intro1" id="intro3" id="round">Decision Making </span>
      
 </div>
 
@@ -149,14 +157,14 @@ function UserProfile() {
 <div   style={{color:"blue"}}  class="row" >
 <div  class="col-md-6">
        
-       <span    id="intro1" id="intro3" id="round"> Problem Solving Ability </span>
+       <span    id="intro1" id="intro3" id="round"> Instructor  </span>
                
        </div>
        <br/>
 <br/>
 <div  class="col-md-6">
        
-       <span  id="intro1" id="intro3" id="round">Administrative Capabilities  </span>
+       <span  id="intro1" id="intro3" id="round">Management  </span>
        
 
       
@@ -167,7 +175,7 @@ function UserProfile() {
 <div  class="col-md-6">
 
         
-<span    id="intro1" id="intro3" id="round">Program development</span>
+<span    id="intro1" id="intro3" id="round">Food Prep</span>
        
 
        
@@ -179,7 +187,7 @@ function UserProfile() {
         
 
        
-        <span   id="intro1" id="intro3" id="round">Psychological Evaluation </span>
+        <span   id="intro1" id="intro3" id="round">Customer Satisfaction  </span>
        
 
        
@@ -228,11 +236,10 @@ function UserProfile() {
 <br/>
 
 <ul > 
-<li  style={{listStyle:"none"}} id="intro4"  > <span className="material-icons">star</span> Faculty of Medicine, Kuwait University</li> 
+<li   id="intro1"  >  Morocco Culinary Institute</li> 
 <br/>
-<li  id="intro1" >Bachelors Degree in Psychology </li>
-<br/>
-<li   id="intro1"  >Attended six years in total, earned multiple academic awards. </li>
+<li  id="intro1" >Completed multiple culinary courses. </li>
+
 </ul>
           
             
@@ -242,50 +249,107 @@ function UserProfile() {
 <br/>
 
 <ul >
-<li style={{listStyle:"none"}}  id="intro4" > <span className="material-icons">star</span>The English Playgroup and Primary School</li> 
+<li  id="intro1" > Fez Cooking School </li> 
             <br/>
-<li  id="intro1" >Diploma </li>
-<br/>
-<li  id="intro1" >Perfect attendance record, graduated with academic honors. </li>
+<li  id="intro1" >Completed all culinary coursed offered at this location. </li>
+
             </ul>
 </div>
 
+
+
+
+
+
+<div   class="col-md-6">
+<br/>
+
+<ul >
+<li  id="intro1" > Purdue University Global </li> 
+            <br/>
+<li  id="intro1" >Bachelors Degree in Culinary Arts. </li>
+
+            </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
 </div>     
+
+
+
+
+
+
+
+
+
+
+
 
 <br/>
 <label id="headdata"  style={{color:"purple"} } >Experience</label>
 <div style={{borderBottom:"2px solid lightgray"}} class="row"> 
 
 <div class="col-md-6">
+
 <br/>
 <ul >
-<li style={{listStyle:"none"}} id="intro4" > <span className="material-icons">star</span>  Kuwait Counseling Center</li> 
+<li  id="intro1" >   Dia Salomas </li> 
             <br/>
-<li  id="intro1" > Head of Psychological Development</li>
+<li  id="intro1" > Head Chef </li>
 <br/>
 
-<li  id="intro1" > Current employer. Design, develop, and integrate our counseling programs. Responsible for training and retention of new employees. </li>
+<li  id="intro1" > Responsible for all aspects as related to cooking. Manged a full staff of 20+ four nights a week. 
+
+</li>
 
             </ul>
             
             
 </div>
 <div class="col-md-6">
+
     <br/>
 <ul >
-<li style={{listStyle:"none"}} id="intro4"  ><span style={{color:"purple"}}className="material-icons">star</span> Farwaniya Hospital </li> 
+<li  id="intro1"  > Little Bella </li> 
 <br/>
-<li  id="intro1" > Certified Nursing Assistant </li> 
+<li  id="intro1" > Head Chef </li> 
 <br/>
-<li   id="intro1" >Responsible for patient care. Monitored and charted vitals, administered medications, and ensured patients were comfortable.  </li>
-<br/>
-<li id="intro1" >Ensured patient’s safety and performed high-quality assistance in a 130-bed long-term care facility
+<li   id="intro1" >Ran and managed the full staff of little Bella alongside the owner. </li>
+
+
+            </ul>
+         
+</div>
 
 
 
-</li>
+
+<div class="col-md-6">
+<hr/>
+    <br/>
+<ul >
+<li  id="intro1"  >Purdue University Global </li> 
+<br/>
+<li  id="intro1" > Online Cooking Instructor.  </li> 
+<br/>
+<li   id="intro1" >Taught online cooking classes. </li>
+
             </ul>
 </div>
+
+
+
+
+
 
 </div>     
 <br/>
@@ -296,9 +360,11 @@ function UserProfile() {
 <br/>
 
 <ul >
-<li style={{listStyle:"none"}} id="intro4" class="font-weight-bold" ><span style={{color:"purple"}}className="material-icons">star</span> Graduated with honors (top of my class) </li> 
 <br/>
-<li id="intro1" style={{color:"blue"}}>Completed college with the highest possible grade-point average. </li>
+
+<li id="intro1" style={{color:"blue"}}>Distinguished Dish Award </li>
+<br/>
+<li id="intro1" style={{color:"blue"}}>Prestigious award for culinary advancement </li>
 </ul>
             
             
@@ -307,9 +373,14 @@ function UserProfile() {
 <div  class="col-md-6">
     <br/>
  <ul >
-<li style={{listStyle:"none"}} id="intro4" class="font-weight-bold"><span style={{color:"purple"}}className="material-icons">star</span> Medical award of excellence  </li> 
+
 <br/>
-<li id="intro1" style={{color:"blue"}}>Honored by Farwaniya Hospital for my excellent patient care abilities. 
+<li id="intro1" style={{color:"blue"}}>ACF Chef Educator of the year award
+
+ </li>
+<br/>
+<li id="intro1" style={{color:"blue"}}>Awarded while teaching at Purdue
+
 
 </li>
 
@@ -331,5 +402,5 @@ function UserProfile() {
     );
   }
   
-  export default UserProfile;
+  export default Talent4;
   

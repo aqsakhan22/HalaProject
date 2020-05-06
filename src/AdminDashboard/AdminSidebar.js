@@ -18,7 +18,7 @@ function AdminSidebar() {
         <ul className="nav">
 
           <li className="nav-item active ">
-          <Link className="nav-link" to="/">  
+          <Link className="nav-link" to="/Admin">  
               <i className="material-icons">dashboard</i>
               <p>Dashboard</p>
           </Link>

@@ -18,7 +18,7 @@ function SideBar() {
         <ul className="nav">
 
           <li className="nav-item active ">
-          <Link className="nav-link" to="/">  
+          <Link className="nav-link" to="/Employee">  
               <i className="material-icons">dashboard</i>
               <p>Dashboard</p>
           </Link>

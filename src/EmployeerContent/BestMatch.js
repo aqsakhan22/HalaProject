@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Styles/profileform.css'
- import logo from '../assets/img/logo/profile.png'
+import Talent1 from '../assets/img/logo/girl.png'
+import Talent2 from '../assets/img/logo/talent2.png'
+import Talent3 from '../assets/img/logo/talent3.jpg'
  import '../Styles/Best.css'
  import {Link} from 'react-router-dom'
 function BestMatch() {
@@ -84,7 +86,7 @@ function BestMatch() {
                    
                     <div class="col-md-3">
                       <div class="form-group">
-                       <img src={logo} style={{width:"200px"},{marginTop:"30px"},{height:"130px"}}  />
+                       <img src={Talent1} style={{width:"100px"},{marginTop:"30px"},{height:"130px"}}  />
                       </div>
                     </div>
                    
@@ -159,7 +161,7 @@ function BestMatch() {
                      
                       <div class="col-md-3">
                         <div class="form-group">
-                         <img src={logo} style={{width:"200px"},{marginTop:"30px"},{height:"130px"}} />
+                         <img src={Talent2} style={{width:"100px"},{marginTop:"30px"},{height:"130px"}} />
                         </div>
                       </div>
                      
@@ -233,7 +235,7 @@ function BestMatch() {
                      
                       <div class="col-md-3" >
                         <div class="form-group">
-                         <img src={logo} style={{width:"200px"},{marginTop:"30px"},{height:"130px"}}  />
+                         <img src={Talent3} style={{width:"100px"},{marginTop:"30px"},{height:"130px"}}  />
                        
                         </div>
                       

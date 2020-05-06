@@ -2,9 +2,9 @@ import React from 'react';
 import '../Styles/profile.css'
 import identiti from '../assets/img/logo/ProfileDefault.png'
 import {Link} from 'react-router-dom' 
-function UserProfile() {
+function TalentProfile() {
     return (
-      <div className="UserProfile">
+      <div className="TalentProfile">
          
 		  
     <div class="container emp-profile">
@@ -20,7 +20,7 @@ function UserProfile() {
                         <br/>
                         
                     <div id="imagedata" >      
-                    <img   style={{width:"40%"},{height:"20%"}}src={identiti} alt=""/> 
+                    <img   style={{width:"100%"},{height:"50%"}}src={identiti} alt=""/> 
                      
                          
                      </div>
@@ -75,11 +75,18 @@ function UserProfile() {
                                         </div>
                        
                     </div>
+                    
                     <div class="col">
-                   <Link to="/editprofile"><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/></Link>     
+                    <br/>
+                  
+                   <Link><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/></Link>     
                         <br/>
                         <br/>
-                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/>
+                        
+                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Hire Me"/>
+                        <br/>
+                        <br/>
+                        <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="ShortList"/>
                         <br/>
                         
                     </div>
@@ -331,5 +338,5 @@ function UserProfile() {
     );
   }
   
-  export default UserProfile;
+  export default TalentProfile;
   

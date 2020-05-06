@@ -2,9 +2,9 @@ import React from 'react';
 import '../Styles/CompanyProfile.css'
 import botify from '../assets/img/logo/botify.PNG'
 
-function Shorages() {
+function Botiky() {
     return (
-      <div className="Shorages">
+      <div className="Botiky">
 		  {/* <h2  class="font-weight-bold" style={{color:"purple"}} class="text-center">Company Profile</h2> */}
     <div class="container emp-profile">
 		
@@ -181,5 +181,5 @@ A place to find and customize your fashion Wishlist
     );
   }
   
-  export default Shorages;
+  export default Botiky;
   

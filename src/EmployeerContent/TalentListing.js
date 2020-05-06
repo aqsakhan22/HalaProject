@@ -1,14 +1,11 @@
 import React from 'react';
 import  '../Styles/style.css'
 import Talent1 from '../assets/img/logo/girl.png'
-import Talent2 from '../assets/img/logo/girl.png'
-import Talent3 from '../assets/img/logo/girl.png'
-import Talent4 from '../assets/img/logo/girl.png'
-import Talent5 from '../assets/img/logo/girl.png'
-import feeback from '../assets/img/logo/feeback.PNG'
-import shorages from '../assets/img/logo/profile.png'
-import koinz from '../assets/img/logo/girl.png'
-import botify from '../assets/img/logo/girl.png'
+import Talent2 from '../assets/img/logo/talent2.png'
+import Talent3 from '../assets/img/logo/talent3.jpg'
+import Talent4 from '../assets/img/logo/talent4.png'
+import Talent5 from '../assets/img/logo/talent5.jpg'
+
 import {Link} from 'react-router-dom'
 import Checkbox from '@material-ui/core/Checkbox';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';

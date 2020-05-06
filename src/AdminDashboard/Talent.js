@@ -1,10 +1,10 @@
 import React from 'react';
 import  '../Styles/style.css'
-import identiti from '../assets/img/logo/girl.png'
-import feeback from '../assets/img/logo/feeback.PNG'
-import shorages from '../assets/img/logo/shorages.PNG'
-import koinz from '../assets/img/logo/girl.png'
-import botify from '../assets/img/logo/girl.png'
+import Talent1 from '../assets/img/logo/girl.png'
+import Talent2 from '../assets/img/logo/talent2.png'
+import Talent3 from '../assets/img/logo/talent3.jpg'
+import Talent4 from '../assets/img/logo/talent4.png'
+import Talent5 from '../assets/img/logo/talent5.jpg'
 import {Link} from 'react-router-dom'
 import Checkbox from '@material-ui/core/Checkbox';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
@@ -54,7 +54,7 @@ function Talent() {
 							  <span class="urgntpkg-candv1">Hire Me</span> 
                              
                              
-			<Link to="/TalentDashboard" >	<img  style={{width:"40%"}} src={identiti} alt="" /></Link>	
+			<Link to="/TalentDashboard" >	<img  style={{width:"40%"}} src={Talent1} alt="" /></Link>	
 						<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Identiti</p> */}
 							<p   id="cardtext3" >Megan Dudding </p>
@@ -80,7 +80,7 @@ function Talent() {
                                 <i  className="fa fa-star" title="Featured"></i>
                               </span> */}
                             
-					<img style={{width:"40%"}}   src={botify} alt="" />
+					<img style={{width:"40%"}}   src={Talent2} alt="" />
 						
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Shorages</p> */}
@@ -102,7 +102,7 @@ function Talent() {
                               </span> */}
 							    <span class="urgntpkg-candv1">Hire Me</span> 
                             
-					<img style={{width:"40%"}} src={identiti} alt="" />
+					<img style={{width:"40%"}} src={Talent3} alt="" />
 					<div class="text">
 							{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">FeeBack</p> */}
 							<p  id="cardtext3"  >Raj Heronea</p>
@@ -123,7 +123,7 @@ function Talent() {
 						  </span>
 						 */}
 						   <span class="urgntpkg-candv1">Hire Me</span> 
-				<img style={{width:"40%"}}  src={koinz} alt="" />
+				<img style={{width:"40%"}}  src={Talent4} alt="" />
 				<div class="text">
 						{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Koinz</p> */}
 						<p   id="cardtext3" >Mike Lenning</p>
@@ -144,7 +144,7 @@ function Talent() {
 						  </span> */}
 						 
 						 <span class="urgntpkg-candv1">Hire Me</span> 
-				<img style={{width:"40%"}}  src={botify} alt="" />
+				<img style={{width:"40%"}}  src={Talent5} alt="" />
 				<div class="text">
 						{/* <p id="intro4" style={{color:"purple"}} class="font-weight-bold">Botify</p> */}
 						<p id="cardtext3" >Janya Harper </p>

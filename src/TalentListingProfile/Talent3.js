@@ -2,9 +2,9 @@ import React from 'react';
 import '../Styles/profile.css'
 import identiti from '../assets/img/logo/ProfileDefault.png'
 import {Link} from 'react-router-dom' 
-function UserProfile() {
+function Talent3() {
     return (
-      <div className="UserProfile">
+      <div className="Talent3">
          
 		  
     <div class="container emp-profile">
@@ -16,20 +16,20 @@ function UserProfile() {
                     
                
                     <div  class="col-md-4 " class="align-top">
-                    <label id="name"style={{color:"purple"}}>Megan Dudding</label>
+                    <label id="name"style={{color:"purple"}}>Raj Heronea</label>
                         <br/>
                         
                     <div id="imagedata" >      
-                    <img   style={{width:"40%"},{height:"20%"}}src={identiti} alt=""/> 
+                    <img   style={{width:"100%"},{height:"50%"}}src={identiti} alt=""/> 
                      
                          
                      </div>
                
                     <div >
                     
-                        <label id="member">Member since 04/01/2020</label> 
+                        <label id="member">Member since 10/11/19</label> 
                         <br/>
-                        <label id="name1" >megandudding@gmail.com</label>
+                        <label id="name1" >rajhernoea@gmail.com</label>
                    
                     </div>
                    
@@ -44,29 +44,29 @@ function UserProfile() {
                     
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Academic Level</label>
-                                                <p  id="intro1">Bachelors Degree</p>
+                                                <p  id="intro1">: Associates </p>
                                             </div>
                                             
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Age</label>
-                                                <p  id="intro1">27</p>
+                                                <p  id="intro1">41</p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Salary</label>
-                                                <p  id="intro1">$5700</p>
+                                                <p  id="intro1">$6500</p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Gender</label>
-                                                <p  id="intro1">Female </p>
+                                                <p  id="intro1">Male </p>
                                             </div>
                                             
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Location</label>
-                                                <p  id="intro1">Kuwait </p>
+                                                <p  id="intro1">Egypt </p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>Sector</label>
-                                                <p  id="intro1">Professional Services </p>
+                                                <p  id="intro1">Search Engine Optimization </p>
                                             </div>
                                             <div  class="col-md-4">
                                                 <label id="intro" class="font-weight-bold" style={{color:"purple"}}>SubCategory</label>
@@ -75,11 +75,18 @@ function UserProfile() {
                                         </div>
                        
                     </div>
+                    
                     <div class="col">
-                   <Link to="/editprofile"><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/></Link>     
+                    <br/>
+                  
+                   <Link><input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/></Link>     
                         <br/>
                         <br/>
-                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Download CV"/>
+                        
+                         <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="Hire Me"/>
+                        <br/>
+                        <br/>
+                        <input id="edit" style={{backgroundColor:"purple"}} type="submit" class="profile-edit-btn" name="btnAddMore" value="ShortList"/>
                         <br/>
                         
                     </div>
@@ -92,16 +99,16 @@ function UserProfile() {
               
                 <div style={{borderBottom:"2px solid lightgray"}}>
                 <p  class="text-left" id="para">
-          Greetings! I want to thank you for stopping by my profile! I am searching for a rewarding career with advancement opportunities. I have experience as a nurse and also as a clinical psychologist, and I want to utilize that for you! 
-              </p>
-              <p  class="text-left" id="para">
-              I have been in the medical field since I graduated high school. While I went to college, I worked as a CNA at night. I worked long and hard to get where I am today. I hope to find an employer with ethics and core values that also align to mine. 
-              </p>
-              <p  class="text-left" id="para">
-              If you have any questions or want to chat, please reach out to me. I would love to learn more about your company and its opportunities, thanks again!
+                Search Engine Optimization is what I do! I have been making websites rank better since 2004. I originally graduated from college with my Associates Degree in Computer Science. After landing my first gig, I discovered my boss was struggling to rank our business locally. I had no experience in this field, but I jumped in heads first. I quickly learned not only did I enjoy SEO work I excelled at it. 
 
 
               </p>
+              <p  class="text-left" id="para">
+              I am looking for a medium to large company that needs a full-time SEO guru. I am a self-starter that is ready to help your company rank. So if you want to increase your organic ranking and get more bang for your buck on your PPC, I am your guy! 
+
+
+              </p>
+            
                 </div>
              
                
@@ -128,13 +135,13 @@ function UserProfile() {
 <div   class="col-md-6">
 
         
-<span  id="intro1" id="intro3" id="round">Employee Development</span>
+<span  id="intro1" id="intro3" id="round">SEO</span>
        
 </div>
 <br/>
 <br/>
 <div  class="col-md-6">     
-<span   id="intro1" id="intro3" id="round">Customer Relations</span>
+<span   id="intro1" id="intro3" id="round">PPC</span>
      
 </div>
 
@@ -149,14 +156,14 @@ function UserProfile() {
 <div   style={{color:"blue"}}  class="row" >
 <div  class="col-md-6">
        
-       <span    id="intro1" id="intro3" id="round"> Problem Solving Ability </span>
+       <span    id="intro1" id="intro3" id="round">SEM </span>
                
        </div>
        <br/>
 <br/>
 <div  class="col-md-6">
        
-       <span  id="intro1" id="intro3" id="round">Administrative Capabilities  </span>
+       <span  id="intro1" id="intro3" id="round">Email Marketing  </span>
        
 
       
@@ -167,7 +174,7 @@ function UserProfile() {
 <div  class="col-md-6">
 
         
-<span    id="intro1" id="intro3" id="round">Program development</span>
+<span    id="intro1" id="intro3" id="round">Client retention </span>
        
 
        
@@ -179,7 +186,7 @@ function UserProfile() {
         
 
        
-        <span   id="intro1" id="intro3" id="round">Psychological Evaluation </span>
+        <span   id="intro1" id="intro3" id="round">Wordpress  </span>
        
 
        
@@ -228,27 +235,31 @@ function UserProfile() {
 <br/>
 
 <ul > 
-<li  style={{listStyle:"none"}} id="intro4"  > <span className="material-icons">star</span> Faculty of Medicine, Kuwait University</li> 
-<br/>
-<li  id="intro1" >Bachelors Degree in Psychology </li>
-<br/>
-<li   id="intro1"  >Attended six years in total, earned multiple academic awards. </li>
+<li  id="intro1"  > Tech Planet</li> 
+
+
 </ul>
           
             
             
 </div>
-<div   class="col-md-6">
+
+<div  class="col-md-6">
 <br/>
 
-<ul >
-<li style={{listStyle:"none"}}  id="intro4" > <span className="material-icons">star</span>The English Playgroup and Primary School</li> 
-            <br/>
-<li  id="intro1" >Diploma </li>
-<br/>
-<li  id="intro1" >Perfect attendance record, graduated with academic honors. </li>
-            </ul>
+<ul > 
+
+<li  id="intro1" >Associates Degree In Computer Technology </li>
+
+</ul>
+          
+            
+            
 </div>
+
+
+
+
 
 </div>     
 
@@ -259,12 +270,12 @@ function UserProfile() {
 <div class="col-md-6">
 <br/>
 <ul >
-<li style={{listStyle:"none"}} id="intro4" > <span className="material-icons">star</span>  Kuwait Counseling Center</li> 
+<li id="intro1" > Grissom's Computer Repair</li> 
             <br/>
-<li  id="intro1" > Head of Psychological Development</li>
+<li  id="intro1" > Basic computer repair/networking</li>
 <br/>
 
-<li  id="intro1" > Current employer. Design, develop, and integrate our counseling programs. Responsible for training and retention of new employees. </li>
+<li  id="intro1" >Ran a full SEO campaign for the company  </li>
 
             </ul>
             
@@ -273,17 +284,17 @@ function UserProfile() {
 <div class="col-md-6">
     <br/>
 <ul >
-<li style={{listStyle:"none"}} id="intro4"  ><span style={{color:"purple"}}className="material-icons">star</span> Farwaniya Hospital </li> 
+<li  id="intro1"  > Carters SEO Services  </li> 
 <br/>
-<li  id="intro1" > Certified Nursing Assistant </li> 
+<li  id="intro1" > Web-based SEO Services </li> 
 <br/>
-<li   id="intro1" >Responsible for patient care. Monitored and charted vitals, administered medications, and ensured patients were comfortable.  </li>
-<br/>
-<li id="intro1" >Ensured patient’s safety and performed high-quality assistance in a 130-bed long-term care facility
-
-
+<li   id="intro1" >Worked on all facets of SEO with multiple industries and clients
 
 </li>
+
+
+
+
             </ul>
 </div>
 
@@ -296,26 +307,31 @@ function UserProfile() {
 <br/>
 
 <ul >
-<li style={{listStyle:"none"}} id="intro4" class="font-weight-bold" ><span style={{color:"purple"}}className="material-icons">star</span> Graduated with honors (top of my class) </li> 
-<br/>
-<li id="intro1" style={{color:"blue"}}>Completed college with the highest possible grade-point average. </li>
+<li id="intro1" class="font-weight-bold" > Awarded SEO of the year award </li> 
+
 </ul>
             
             
 </div>
 
-<div  class="col-md-6">
-    <br/>
- <ul >
-<li style={{listStyle:"none"}} id="intro4" class="font-weight-bold"><span style={{color:"purple"}}className="material-icons">star</span> Medical award of excellence  </li> 
+
+
+<div class="col-md-6">
 <br/>
-<li id="intro1" style={{color:"blue"}}>Honored by Farwaniya Hospital for my excellent patient care abilities. 
+
+<ul >
+
+
+<li id="intro1" style={{color:"blue"}}>For excellence in service at Carter's. 
 
 </li>
-
-            </ul>
-
+</ul>
+            
+            
 </div>
+
+
+
 
 </div>
 
@@ -331,5 +347,5 @@ function UserProfile() {
     );
   }
   
-  export default UserProfile;
+  export default Talent3;
   

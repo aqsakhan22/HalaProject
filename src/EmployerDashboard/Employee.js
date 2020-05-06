@@ -14,11 +14,11 @@ import MainDashboard from '../EmployeerContent/MainDashboard'
 import ShortList from '../EmployeerContent/ShortList'
 
 // {Talent Profule}
-import TalentProfile from '../EmployeerContent/TalentProfile'
-import Talent2 from '../EmployeerContent/Talent2'
-import Talent3 from '../EmployeerContent/Talent3'
-import Talent4 from '../EmployeerContent/Talent4'
-import Talent5 from '../EmployeerContent/Talent5'
+import TalentProfile from '../TalentListingProfile/TalentProfile'
+import Talent2 from '../TalentListingProfile/Talent2'
+import Talent3 from '../TalentListingProfile/Talent3'
+import Talent4 from '../TalentListingProfile/Talent4'
+import Talent5 from '../TalentListingProfile/Talent5'
 
 function Employee() {
     return (

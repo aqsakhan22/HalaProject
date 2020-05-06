@@ -4,17 +4,19 @@ import Navbar from '../NavBar/Navbar'
 import CompanyListing from '../Content/CompanyListing'
 import Footer from '../Footer/Footer'
 import UserProfile from '../Content/UserProfile'
-import Main1 from './Main1'
+// import Main1 from './Main1'
 import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
-import CProfile from '../Content/CProfile'
+
 import Dashboard from '../Content/Dashboard'
 import Faqs from '../Content/FAQS'
 import MainDashboard from '../Content/MainDashboard'
 import WishList from '../Content/Wishlist'
-import Shorages from '../Content/Shorages'
-import Feeback from '../Content/Feeback'
-import Koinz from '../Content/Koinz'
-import Botify from '../Content/Botify'
+// {Company Listing} 
+import Identiti from '../CompanyListingProfile/CProfile'
+import Shorages from '../CompanyListingProfile/Shorages'
+import Feeback from '../CompanyListingProfile/Feeback'
+import Koinz from '../CompanyListingProfile/Koinz'
+import Botiky from '../CompanyListingProfile/Botiky'
 
 function Main() {
     return (
@@ -41,19 +43,19 @@ function Main() {
     <Route path="/UserProfile" exact><UserProfile/></Route>
     <Route path="/editprofile"><Dashboard/></Route>
     {/* <Route path="/CProfile" exact><CProfile/></Route> */}
-    <Route path="/identiti" ><CProfile/></Route>
+ 
     <Route path="/WishList"><WishList/></Route>
     <Route path="/Faqs"><Faqs/></Route>
 
 {/* {shorages} */}
-
+<Route path="/identiti" ><Identiti/></Route>
 <Route path="/shorage"><Shorages/></Route>
 
 <Route path="/feeback"><Feeback/></Route>
 
 <Route path="/koinz"><Koinz/></Route>
 
-<Route path="/botify"><Botify/></Route>
+<Route path="/botify"><Botiky/></Route>
 
 
 

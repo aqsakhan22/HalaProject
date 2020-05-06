@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../assets/img/profile.png'
+import avatar from '../assets/img/logo/girl.png'
 import '../Styles/Navbar.css'
 function Navbar() {
     return (

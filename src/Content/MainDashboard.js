@@ -8,7 +8,7 @@ function MainDashboard() {
 
 
 
-        <h2 id="main">Talent Dashboard</h2>
+        <h2 id="main">Talent</h2>
         <br/>
        <div class="content">
         <div class="container-fluid">
