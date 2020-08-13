@@ -15,7 +15,7 @@ function Alldashboard() {
 
     <Route path="/Talent"><TalentDashboard/></Route>
     <Route path="/Employee"><EmployeeDasboard/></Route>
-    <Route path="/Admin"><AdminDashboard/></Route>5
+    <Route path="/Admin"><AdminDashboard/></Route>
     </Switch>
 
 </Router>
