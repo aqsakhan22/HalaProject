@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.colbtn{
+  background-color: #282c34;
+  margin-top: 20px;
+}
+.panel{
+  margin-top: 200px;
+}
+.panel h1{
+  color: black;
+}
